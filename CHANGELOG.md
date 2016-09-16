@@ -1,6 +1,6 @@
 # Kubernetic Release Notes
 
-#### v0.2.0 - Pending
+#### v0.2.0 (Pending)
 
 * Activate Keyboard Shortcuts
 
