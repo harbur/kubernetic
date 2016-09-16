@@ -4,6 +4,6 @@
 
 * Activate Keyboard Shortcuts
 
-#### v0.1.0 - 02 Sep 2016
+#### v0.1.0 (02 Sep 2016)
 
 Initial Release
