@@ -56,11 +56,11 @@
 * Added Code Editor
 * Added Update Image button on Deployments
 
-#### v0.2.0 (1 Oct 2016)
+#### v0.2.0
 
 * Add dialog to install Helm on Cluster
 * Activate Keyboard Shortcuts
 
-#### v0.1.0 (02 Sep 2016)
+#### v0.1.0
 
 Initial Release
