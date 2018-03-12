@@ -1,6 +1,69 @@
 # Kubernetic Release Notes
 
-#### v0.8.0
+## v2.0.11
+
+* Issue #38: Removed try/catch to show origin of error
+* Added Ready and Status info on Helm Releases
+
+## v2.0.10
+
+* Added support syncing with kubectx and kubens
+* Added Popup on Contexts with context details
+* Show last x lines on Logs screen
+* Fixes Logs scrolling
+* Charts are now shown on first click
+
+## v2.0.9
+
+* Fixed issue finding the PATH to helm
+
+## v2.0.8
+
+* If an item is deleted, return to List screen
+* Fixed issue with logs
+* Added monitoring of ~/.kube/config to update automatically
+* Add support for deletion propagation
+
+## v2.0.7
+
+* Added support for GKE environments
+* Added possibility to connect using insecure-tls
+
+## v2.0.6
+
+* Fix running app when packaged
+* Update package name to Kubernetic
+
+## v2.0.5
+
+* Added connection status on Top Menu
+* Added counter of items on Breadcrumb
+* Added loading state for helm init
+* Added minWidth on Window
+* Now ~/.kubernetic/tmp is created if it doesn't exist
+
+## v2.0.4
+
+* Added networking issue message when updating if offline
+* Fix issue with deleting resources
+
+## v2.0.3
+
+* Fixed windowManager to show properly initial screen
+
+## v2.0.2
+
+* Fix issue with Modal not opening
+
+## v2.0.1
+
+* Update of Dependencies
+
+## v2.0.0
+
+* Major refactor migrating from Angular to React
+
+## v0.8.0
 
 * Issue #8 Fix visual problem on labels
 * Issue #7 Added Token-based Authentication
@@ -12,24 +75,24 @@
 * Breadcrumb titles are now links
 * Image version if not defined is 'latest'
 
-#### v0.7.1
+## v0.7.1
 
 * Issue #19 Prompt to configure kubectl if no existing cluster
 
-#### v0.7.0
+## v0.7.0
 
 * Added support for auto-update of Kubernetic
 * Added Windows distro
 * Issue #18 Added better parsing of Chart.yaml
 * Added connectivity to GCP kubernetes clusters
 
-#### v0.6.0
+## v0.6.0
 
 * Updated clusters and namespaces UI
 * Fix Chart deployment dialog
 * Improve Chart & Release UI
 
-#### v0.5.0
+## v0.5.0
 
 * Added status for Nodes
 * Updated helm v2.0.0
@@ -40,7 +103,7 @@
 * Added group actions
 * Added ingress status
 
-#### v0.4.0
+## v0.4.0
 
 * Added possibility to import local-dir Repository
 * Added Preview button on Pods
@@ -49,18 +112,18 @@
 * Added error message when chart deploy fails
 * Added confirmation for deleting a Chart release
 
-#### v0.3.0
+## v0.3.0
 
 * Added Search field
 * Added confirmation popup for deletions
 * Added Code Editor
 * Added Update Image button on Deployments
 
-#### v0.2.0
+## v0.2.0
 
 * Add dialog to install Helm on Cluster
 * Activate Keyboard Shortcuts
 
-#### v0.1.0
+## v0.1.0
 
 Initial Release
