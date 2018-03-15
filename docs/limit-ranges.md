@@ -1,0 +1,55 @@
+# Limit Ranges
+
+Limit Ranges helps define boundaries on the memory and cpu that Pods can claim on each namespace. This helps cluster operators manage the resources efficiently.
+
+For more information about Limit Ranges checkout the [Kubernetes User Guide](http://kubernetes.io/docs/admin/limitrange/).
+
+In this tutorial we'll configure Limit Ranges to the `kubernetic-tutorial` namespace.
+
+## Limit Range Sample
+
+Go to the tutorial chart repo and run the `limitrange-sample` chart.
+
+Here is the Limit Range definition:
+
+
+```
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: mylimits
+spec:
+  limits:
+  - max:
+      cpu: "2"
+      memory: 1Gi
+    min:
+      cpu: 200m
+      memory: 6Mi
+    type: Pod
+  - default:
+      cpu: 300m
+      memory: 200Mi
+    defaultRequest:
+      cpu: 200m
+      memory: 100Mi
+    max:
+      cpu: "2"
+      memory: 1Gi
+    min:
+      cpu: 100m
+      memory: 3Mi
+    type: Container
+```
+
+Now go to the Limit Ranges section. You'll see the `mylimits` Limit Range that configures the limits of cpu and memory.
+
+![](/assets/limitranges.png)
+
+If you select the Limit Range `mylimits` you'll see details about the limits of memory and cpu.
+
+![](/assets/limitrange-mylimits.png)
+
+# Cleanup
+
+You can now delete the release of the `limitrange-sample` chart.

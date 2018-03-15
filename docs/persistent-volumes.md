@@ -1,0 +1,126 @@
+# Persistent Volumes
+
+Pods as mentioned before are ephemeral, in stateful applications we need the data of our instances to outlive the lives of the instances, so we need them to be stored outside of the containers.
+
+Persistent Volumes define where Pods can claim Storage for their instances.
+
+For more information about Persistent Volumes checkout the [Kubernetes User Guide](http://kubernetes.io/docs/user-guide/persistent-volumes/).
+
+In this Tutorial we'll create a simple Persistent Volume that uses the disk of the Host for storage.
+
+## Persistent Volume Sample
+
+We have disk space on the Host machine and want to use the `/tutorial/data01` directory there as storage for our containers.
+
+> NOTE: This isn't recommended for production, since if the Pod's host changes, the storage is different.
+
+Go to the tutorial chart repo and run the `persistentvolume-sample` chart.
+
+Here is the Persistent Volume definition:
+
+```
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: pv0001
+  labels:
+    type: local
+spec:
+  capacity:
+    storage: 2Gi
+  accessModes:
+    - ReadWriteMany
+  hostPath:
+    path: "/data/tutorial/pv0001/"
+
+```
+
+Now go to the Persistent Volumes section. You'll see the `pv0001` Persistent Volume.
+
+![](/assets/persistent-volumes.png)
+
+## Ghost Blogging Platform
+
+Now Let's deploy a stateful application. [Ghost](https://ghost.org/) is a blogging platform. By default, for development purposes, it uses SQLite database which is stored on disk. We'll use a Persistent Volume Claim to store our data to our previously defined Persistent Volume and make sure they are persistent even if our `ghost` Pod dies.
+
+Go to the tutorial chart repo and run the `ghost` chart.
+
+Now go to the Persistent Volume Claims section. You'll see the `ghost-claim` Persistent Volume Claim. This is asking for space and is bound to our Persistent Volume.
+
+![](/assets/persistent-volume-claim.png)
+
+At the Deployments section you'll see the `ghost` Deployment that creates a Replica Set and it creates a Pod for our Ghost application.
+
+![](/assets/Ghost.png)
+
+The Service is configured to expose Ghost at Node Port `30100`.
+
+If you're using minikube to launch Kubernetes then get the IP of the node:
+
+```
+minikube ip
+```
+
+And open a browser at the port http://NODE_IP:30100
+
+![](/assets/Ghost-browser.png)
+
+Let's see now if we have persistence of our data.
+
+Configure your Ghost blog by going to the http://NODE_IP:30100/ghost URL
+
+![](/assets/Ghost-setup.png)
+
+Now you can see the Ghost configured properly on the landing page:
+
+![](/assets/Ghost-configured.png)
+
+Let's change our `ghost` Deployment to 0 replicas.
+
+![](/assets/Ghost-stopping.png)
+
+And restore it with 1 replica again. The Pod is now a new instance and it should have kept the configuration if the Persistent Volume is used properly.
+
+![](/assets/Ghost-configured.png)
+
+You can also verify the data are stored under the Persistent Volume by checking the contents of `/data/tutorial/pv0001` on the Host node.
+
+In minikube you can use the following command:
+
+```
+➜  minikube ssh -- find /data/tutorial/pv0001/
+/data/tutorial/pv0001
+/data/tutorial/pv0001/config.js
+/data/tutorial/pv0001/themes
+/data/tutorial/pv0001/themes/casper
+/data/tutorial/pv0001/themes/casper/LICENSE
+/data/tutorial/pv0001/themes/casper/README.md
+/data/tutorial/pv0001/themes/casper/post.hbs
+/data/tutorial/pv0001/themes/casper/index.hbs
+/data/tutorial/pv0001/themes/casper/author.hbs
+/data/tutorial/pv0001/themes/casper/page.hbs
+/data/tutorial/pv0001/themes/casper/partials
+/data/tutorial/pv0001/themes/casper/partials/loop.hbs
+/data/tutorial/pv0001/themes/casper/partials/navigation.hbs
+/data/tutorial/pv0001/themes/casper/default.hbs
+/data/tutorial/pv0001/themes/casper/tag.hbs
+/data/tutorial/pv0001/themes/casper/package.json
+/data/tutorial/pv0001/themes/casper/assets
+/data/tutorial/pv0001/themes/casper/assets/css
+/data/tutorial/pv0001/themes/casper/assets/css/screen.css
+/data/tutorial/pv0001/themes/casper/assets/fonts
+/data/tutorial/pv0001/themes/casper/assets/fonts/casper-icons.ttf
+/data/tutorial/pv0001/themes/casper/assets/fonts/casper-icons.woff
+/data/tutorial/pv0001/themes/casper/assets/fonts/casper-icons.eot
+/data/tutorial/pv0001/themes/casper/assets/fonts/casper-icons.svg
+/data/tutorial/pv0001/themes/casper/assets/js
+/data/tutorial/pv0001/themes/casper/assets/js/jquery.fitvids.js
+/data/tutorial/pv0001/themes/casper/assets/js/index.js
+/data/tutorial/pv0001/images
+/data/tutorial/pv0001/images/README.md
+/data/tutorial/pv0001/data
+/data/tutorial/pv0001/data/ghost-dev.db
+/data/tutorial/pv0001/data/README.md
+/data/tutorial/pv0001/apps
+/data/tutorial/pv0001/apps/README.md
+```
