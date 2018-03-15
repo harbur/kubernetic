@@ -1,6 +1,9 @@
 {
-  "plugins": ["anchors", "ga"],
+  "plugins": ["anchors", "ga", "github"],
   "pluginsConfig": {
+    "github": {
+      "url": "https://github.com/harbur/kubernetic"
+    },
     "ga": {
       "token": "UA-11756963-5"
     }
