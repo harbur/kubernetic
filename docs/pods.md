@@ -6,7 +6,7 @@ Container is a process (or set of processes) that runs in a jailed environment s
 
 A Pod is an instance of one or more containers under the same IP. In most cases a Pod contains just one container, in some edge cases a pod contains multiple containers and they are bound under the same IP to create a tight integration.
 
-For more information about Pods checkout the [Kubernetes User Guide](http://kubernetes.io/docs/user-guide/pods/). 
+For more information about Pods checkout the [Kubernetes User Guide](http://kubernetes.io/docs/user-guide/pods/).
 
 In this Tutorial you'll learn how to run different types of Pods.
 
