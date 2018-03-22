@@ -20,3 +20,4 @@
   * [4.11. Resource Quotas](./docs/resource-quotas.md)
   * [4.12. Limit Ranges](./docs/limit-ranges.md)
   * [4.13. Ingresses](./docs/ingresses.md)
+* [Changelog](CHANGELOG.md)
