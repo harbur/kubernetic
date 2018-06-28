@@ -100,6 +100,6 @@ minikube   Ready     master    22m       v1.10.0
 ```
 
 {% hint style="success" %}
-Now you have a working Kubernetes cluster running locally using **minikube** and have proper authentication using **kubectl** to connect to the cluster. Now you can launch **Kubernetic** to connect to the cluster.
+Now you have a working Kubernetes cluster running locally using **minikube** and have proper authentication using **kubectl** to connect to the cluster. You can launch **Kubernetic** to connect to the cluster.
 {% endhint %}
 
