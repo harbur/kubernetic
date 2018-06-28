@@ -57,8 +57,7 @@ sudo mv kubectl /usr/local/bin/
 {% endtabs %}
 
 {% hint style="info" %}
-For more details on the installation process of minikube proceed [here](https://github.com/kubernetes/minikube/).  
-For more details on the installation process of kubectl proceed [here](https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-with-homebrew-on-macos).
+For more details on the installation process check documentation of [minikube](https://github.com/kubernetes/minikube/) and [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-with-homebrew-on-macos).
 {% endhint %}
 
 ### Verify Installation
