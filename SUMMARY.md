@@ -4,6 +4,7 @@
 * [Installation](installation.md)
 * [Create a Cluster](1.0.-create-a-cluster/README.md)
   * [Minikube](1.0.-create-a-cluster/minikube.md)
+  * [Docker CE](1.0.-create-a-cluster/docker-ce.md)
 * [Cluster Authentication](2.0.-cluster-authentication.md)
 * [Namespaces](3.0.-namespaces.md)
 * [Tutorial](4.0.-tutorial/README.md)
