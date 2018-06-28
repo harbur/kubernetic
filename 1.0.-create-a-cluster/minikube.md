@@ -91,5 +91,15 @@ Kubectl is now configured to use the cluster.
 Loading cached images from config file.
 ```
 
+Once the cluster is up and running you should be able to get the list of nodes through kubectl CLI:
 
+```text
+> kubectl get nodes
+NAME       STATUS    ROLES     AGE       VERSION
+minikube   Ready     master    22m       v1.10.0
+```
+
+{% hint style="success" %}
+Now you have a working Kubernetes cluster running locally using **minikube** and have proper authentication using **kubectl** to connect to the cluster. Now you can launch **Kubernetic** to connect to the cluster.
+{% endhint %}
 
