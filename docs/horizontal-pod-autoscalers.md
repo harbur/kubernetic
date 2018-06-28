@@ -1,3 +1,0 @@
-# Horizontal Pod Autoscalers
-
-Coming Soon...

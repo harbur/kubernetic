@@ -1,8 +1,8 @@
-# Kubernetic
+# Introduction
 
 [Kubernetic](https://www.kubernetic.com): The Desktop Client for Kubernetes
 
-![header](images/deployment-nginx.png)
+![header](.gitbook/assets/deployment-nginx.png)
 
 It provides the following features:
 
@@ -25,3 +25,4 @@ For more information and the tutorial go to the [documentation page](http://docs
 ## Reporting Issues
 
 To report issues you can go [here](https://github.com/harbur/kubernetic/issues)
+
