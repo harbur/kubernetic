@@ -93,7 +93,7 @@ Loading cached images from config file.
 
 Once the cluster is up and running you should be able to get the list of nodes through kubectl CLI:
 
-```text
+```bash
 > kubectl get nodes
 NAME       STATUS    ROLES     AGE       VERSION
 minikube   Ready     master    22m       v1.10.0
