@@ -2,7 +2,7 @@
 
 [Kubernetic](https://www.kubernetic.com): The Desktop Client for Kubernetes
 
-![header](.gitbook/assets/deployment-nginx.png)
+![Deployment of nginx with 2 replicas \(version 1.10-alpine\)](.gitbook/assets/deployment.png)
 
 It provides the following features:
 
