@@ -6,20 +6,7 @@ Kubernetic integrates with Helm as Package management. In this section the Repos
 In order for Repositories screen to be functional you need to install [helm](https://github.com/kubernetes/helm/releases) and do an init:
 
 ```bash
-> helm init --client-only
-Creating /Users/username/.helm
-Creating /Users/username/.helm/repository
-Creating /Users/username/.helm/repository/cache
-Creating /Users/username/.helm/repository/local
-Creating /Users/username/.helm/plugins
-Creating /Users/username/.helm/starters
-Creating /Users/username/.helm/cache/archive
-Creating /Users/username/.helm/repository/repositories.yaml
-Adding stable repo with URL: https://kubernetes-charts.storage.googleapis.com
-Adding local repo with URL: http://127.0.0.1:8879/charts
-$HELM_HOME has been configured at /Users/username/.helm.
-Not installing Tiller due to 'client-only' flag having been set
-Happy Helming!
+helm init --client-only
 ```
 {% endhint %}
 
