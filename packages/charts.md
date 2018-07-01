@@ -18,5 +18,23 @@ Server: &version.Version{SemVer:"v2.9.0", GitCommit:"f6025bb9ee7daf9fee0026541c9
 
 ![Package &amp;gt; Charts: Listing Kubernetic charts](../.gitbook/assets/charts.png)
 
+### Details of a Chart
 
+Clicking on a Chart a detailed view of the Chart appears:
+
+![Package &amp;gt; Chart Details: stable/wordpress](../.gitbook/assets/chart-view.png)
+
+### Deploying a Chart
+
+Deploy of a chart installs the chart archive on a specific namespace.
+
+![](../.gitbook/assets/chart-deploy.png)
+
+The following options are configurable:
+
+* **Release Name:** Release name. If unspecified, it will autogenerate one for you 
+* **Namespace**: Namespace to install the release into. Defaults to the active namespace.
+* **Values**: specify values in a YAML format. It is auto-populated with the default values of the Chart.
+
+Once the Chart is deployed a Release is created.
 
