@@ -8,16 +8,16 @@ Bug fixes:
 
 ## v2.0.15
 
+Features:
+
+* Add Edit resources action
+* #49 Add support for StatefulSets
+
 Bug fixes:
 
 * #53 Crash if ca-cert is relative to the ~/.kube directory
 * #52 App should not launch on full-screen mode
 * #51 Logs are missing
-
-Features:
-
-* Add Edit resources action
-* #49 Add support for StatefulSets
 
 ## v2.0.14
 
