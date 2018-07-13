@@ -4,20 +4,20 @@
 
 Bug fixes:
 
-* #58 Could not start kubernetic on Win10
+* Issue #58 Could not start kubernetic on Win10
 
 ## v2.0.15
 
 Features:
 
 * Add Edit resources action
-* #49 Add support for StatefulSets
+* \#49 Add support for StatefulSets
 
 Bug fixes:
 
-* #53 Crash if ca-cert is relative to the ~/.kube directory
-* #52 App should not launch on full-screen mode
-* #51 Logs are missing
+* \#53 Crash if ca-cert is relative to the ~/.kube directory
+* \#52 App should not launch on full-screen mode
+* \#51 Logs are missing
 
 ## v2.0.14
 
