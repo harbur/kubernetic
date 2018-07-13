@@ -4,7 +4,7 @@
 
 Bug fixes:
 
-* Issue #58 Could not start kubernetic on Win10
+* \#58 Could not start kubernetic on Win10
 
 ## v2.0.15
 
