@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.1.0
+
+Features:
+
+* Add Create actions per each resource
+
 ## v2.0.16
 
 Bug fixes:
