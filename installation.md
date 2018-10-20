@@ -1,7 +1,3 @@
----
-description: Installation of Kubernetic Desktop Client
----
-
 # Installation
 
 ## Download the Application

@@ -2,9 +2,9 @@
 
 
 
-### Install Docker CE
+### Install Docker Desktop
 
-Docker Community Edition \(CE\) is ideal for developers and small teams looking to get started with Docker and experimenting with container-based apps. Docker CE has two update channels, **stable** and **edge**:  
+Docker Desktop is ideal for developers and small teams looking to get started with Docker and experimenting with container-based apps. Docker Desktop has two update channels, **stable** and **edge**:  
 
 
 {% tabs %}
@@ -45,7 +45,7 @@ docker-for-desktop   Ready     master    1m        v1.10.3
 
 
 {% hint style="success" %}
-Now you have a working Kubernetes cluster running locally using **Docker CE** and have proper authentication using **kubectl** to connect to the cluster. You can launch **Kubernetic** to connect to the cluster.
+Now you have a working Kubernetes cluster running locally using **Docker Desktop** and have proper authentication using **kubectl** to connect to the cluster. You can launch **Kubernetic** to connect to the cluster.
 {% endhint %}
 
 
