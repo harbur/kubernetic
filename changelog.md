@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.3.0
+
+Features:
+
+* #57 Support EKS clusters
+
 ## v2.1.0
 
 Features:
