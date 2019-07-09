@@ -4,7 +4,7 @@
 
 Features:
 
-* #57 Support EKS clusters
+* \#57 Support EKS clusters
 
 ## v2.1.0
 
