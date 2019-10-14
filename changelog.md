@@ -1,5 +1,16 @@
 # Changelog
 
+## v2.4.0
+
+Features:
+
+* Switch Backend to Go client for better stability
+
+Fixes:
+
+* \#57 Support EKS clusters
+* \#113 kubernetic 2.3.0 can't view deployments on kubelet 1.16
+
 ## v2.3.0
 
 Features:
