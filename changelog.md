@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.4.1
+
+Fixes:
+
+* \#115 After upgrade cannot connect to Azure cluster
+
 ## v2.4.0
 
 Fixes:
