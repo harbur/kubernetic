@@ -5,6 +5,8 @@
 Fixes:
 
 * \#57 Support EKS clusters
+* \#105 Not able to connect to GKE clusters
+* \#106 Unable to connect to rancher/k3s cluster
 * \#113 kubernetic 2.3.0 can't view deployments on kubelet 1.16
 
 Refactor:
