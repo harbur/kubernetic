@@ -1,5 +1,14 @@
 # Changelog
 
+## v2.4.2
+
+Fixes:
+
+* \#127 Logs not visible after switching context in kubernetic
+* \#120 it just freezes
+* \#117 Showing pods log in version 2.4.1
+
+
 ## v2.4.1
 
 Fixes:
