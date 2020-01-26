@@ -1,9 +1,20 @@
 # Changelog
 
+## v2.4.3
+
+Fixes:
+* \#128 namespace changes to default at start
+* Fix "Show last x lines" option on Logs screen
+
+Features:
+* Show container names on Logs screen
+* Add dropdown filter for logs by Pod & Container
+* Show logs on Deployments, Replicasets, ReplicationControllers, Jobs, CronJobs, DaemonSets & StatefulSets
+
+
 ## v2.4.2
 
 Fixes:
-
 * \#127 Logs not visible after switching context in kubernetic
 * \#120 it just freezes
 * \#117 Showing pods log in version 2.4.1
