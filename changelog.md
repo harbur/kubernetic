@@ -1,5 +1,27 @@
 # Changelog
 
+## v2.6.0
+
+* feature \#45 terminal for pod
+* feature \#102 service port forward support
+* feature \#94 support cronjob
+* dup \#126 log into the pod
+* bug \#147 automatic update not working properly
+* bug \#144 blank screen - when clicking PV specifications
+
+## v2.5.0
+
+* \#103 OIDC authentication seems broken in 2.3.0
+* \#28 Implement support for multiple kubeconfig files
+* \#110 \[WINDOWS\] Can't set properly kubeconfig file
+* \#56 Not supporting KUBECONFIG, error from missing config file
+* \#92 Weird results with multiple contexts
+* \#117 Showing pods log in version 2.4.1
+* \#93 \[FEATURE REQUEST\] Support HTTP Proxies
+* \#124 Cannot login
+* \#130 \[Feature request\] Give feedback if the connection is established between app & cluster
+* \#134 percentage calculation incorrect (limits, quota % used)
+
 ## v2.4.3
 
 Fixes:
