@@ -5,9 +5,9 @@
 * feature \#45 terminal for pod
 * feature \#102 service port forward support
 * feature \#94 support cronjob
-* dup \#126 log into the pod
 * bug \#147 automatic update not working properly
 * bug \#144 blank screen - when clicking PV specifications
+* dup \#126 log into the pod
 
 ## v2.5.0
 
