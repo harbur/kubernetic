@@ -1,5 +1,16 @@
 # Changelog
 
+## [v2.7.0](https://github.com/harbur/kubernetic/milestone/14?closed=1)
+
+* feature \#108 \[Feature Request] Support for custom resources (kind)
+* feature \#109 \[Feature Request] Support for rollout command
+* feature \#149 \[Feature request] Terminal - Selecting a container
+* feature \#95 RBAC editing
+* bug \#157 CronJobs showing data for wrong context
+* bug \#145 Strange behavior when select multiple objects
+* bug \#146 Limitranges - incorrectly reporting
+* dup \#81 Display CRD's
+
 ## v2.6.0
 
 * feature \#45 terminal for pod
