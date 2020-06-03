@@ -1,5 +1,19 @@
 # Changelog
 
+## [v2.8.0](https://github.com/harbur/kubernetic/milestone/15?closed=1)
+
+* feature \#121 \[Feature request] Helm 3 support 
+* feature \#107 \[Feature Request] Show allocated resources (requests and limits) per node
+* feature \#50 Events section
+* feature \#78 \[Feature] Refresh button and refresh rate option for current page
+* feature \#142 Customize pagination
+* feature \#159 \[Feature Request] Support for global custom resources
+* feature \#99 Logs should auto scroll
+* feature \#153 \[New feature] View init-containers in pods
+* feature \#89 \[FEATURE REQUEST] Support for previous logs display
+* fix \#155 \[Feature request] Scaling terminal/items screen 
+* dup \#156 \[Feature Request] show previous logs
+
 ## [v2.7.0](https://github.com/harbur/kubernetic/milestone/14?closed=1)
 
 * feature \#108 \[Feature Request] Support for custom resources (kind)
