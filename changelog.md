@@ -1,5 +1,10 @@
 # Changelog
 
+## [v2.8.1](https://github.com/harbur/kubernetic/milestone/17?closed=1)
+
+* fix \#165 Unable to delete jobs after Kubernetic 2.8.0 update
+* fix \#163 Portforward no longer working after update
+
 ## [v2.8.0](https://github.com/harbur/kubernetic/milestone/15?closed=1)
 
 * feature \#121 \[Feature request] Helm 3 support 
