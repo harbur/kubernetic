@@ -1,5 +1,12 @@
 # Changelog
 
+## [v2.9.0](https://github.com/harbur/kubernetic/milestone/16?closed=1)
+
+* fix \#151 Network connection seems broken after standby
+* fix \#162 The list is not updated after deleting a resource
+* fix \#160 2.7.0 - Custom Resources: Searching/Filtering doesn't work, don't load
+* fix \#138 Support for helm TLS and tiller namespace
+
 ## [v2.8.1](https://github.com/harbur/kubernetic/milestone/17?closed=1)
 
 * fix \#165 Unable to delete jobs after Kubernetic 2.8.0 update
