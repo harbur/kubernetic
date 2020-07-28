@@ -35,4 +35,5 @@
   * [Stateful Sets](controllers/stateful-sets.md)
   * [Replication](controllers/replication.md)
 * [Changelog](changelog.md)
+* [Install Operators](install-operators/README.md)
 
