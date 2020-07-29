@@ -61,6 +61,6 @@ Move-Item .\kind-windows-amd64.exe c:\some-dir-in-your-PATH\kind.exe
  ```bash
 > kind create cluster
 ```
-This will bootstrap a Kubernetes cluster using a pre-built node image - you can find it on [docker hub](https://hub.docker.com/r/kindest/node//)
+This will bootstrap a Kubernetes cluster using a pre-built node image - you can find it on [docker hub](https://hub.docker.com/r/kindest/node//).
 By default, the cluster will be given the name kind. Use the --name flag to assign the cluster a different context name.
 
