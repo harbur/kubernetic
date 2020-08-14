@@ -1,5 +1,24 @@
 # Changelog
 
+## [v2.10.0](https://github.com/harbur/kubernetic/milestone/18?closed=1)
+
+* feature \#196 Add Terminal support for all workloads
+* feature \#194 Create addon for metrics-server
+* feature \#195 Create addon for metrics-scraper
+* feature \#176 Create addon for operators
+* feature \#193 Expose usage metrics of cpu and memory
+* feature \#197 Expose time-series graph of cpu and memory
+* feature \#192 Add Preview Button on all Create screens
+* feature \#143 Descriptions when creating things
+* feature \#186 Make some things configurable
+* fix \#170 RBAC Group Permissions Issue
+* fix \#173 Common tab groups should be open by default
+* fix \#161 MacOS: missing icon in status bar
+* fix \#183 blank page of node describe from pods specifications
+* fix \#158 Accessibility issue with context and namespace drop-down menus
+* fix \#179 Pod Terminal restarts if Kubernetic get focus again
+* fix \#171 Pod OutOfcpu status reported as Unknown in Kubernetic
+
 ## [v2.9.0](https://github.com/harbur/kubernetic/milestone/16?closed=1)
 
 * fix \#151 Network connection seems broken after standby
