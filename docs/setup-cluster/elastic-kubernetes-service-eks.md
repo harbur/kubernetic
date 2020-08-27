@@ -1,8 +1,8 @@
-# Amazon Elastic Kubernetes Service (EKS)
+# Elastic Kubernetes Service (EKS)
 
 ### Installation
 
-[Amazon Elastic Kubernetes Service](https://aws.amazon.com/eks//) \(EKS\) is a fully managed, production-ready environment for deploying containerized applications, without needing to install, operate, and maintain your own Kubernetes control plane or nodes.
+Amazon's [Elastic Kubernetes Service](https://aws.amazon.com/eks//) \(EKS\) is a fully managed, production-ready environment for deploying containerized applications, without needing to install, operate, and maintain your own Kubernetes control plane or nodes.
 
 One of the best ways to work with Amazon EKS is by using the `eksctl` tool, a simple command line utility for creating and managing Kubernetes clusters on Amazon EKS. The eksctl command line utility provides the fastest and easiest way to create a new cluster with nodes for Amazon EKS.
 In order to install `eksctl` follow the [AWS official documentation](https://docs.aws.amazon.com/eks/latest/userguide/eksctl.html#installing-eksctl)

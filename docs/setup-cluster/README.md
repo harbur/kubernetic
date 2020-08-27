@@ -1,4 +1,4 @@
-# Create a Cluster
+# Setup Cluster
 
 In this section you'll setup a Kubernetes cluster locally in your machine.
 
