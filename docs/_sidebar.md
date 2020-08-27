@@ -39,5 +39,4 @@
   * [Releases](applications/releases.md)
 * [User Management](user-management/)
   * [ServiceAccounts](user-management/serviceaccounts.md)
-* [Controllers](controllers.md)
 * [Changelog](changelog.md)
