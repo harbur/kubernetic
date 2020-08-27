@@ -1,28 +1,46 @@
 # Introduction
 
-[Kubernetic](https://www.kubernetic.com): The Desktop Client for Kubernetes
+[Kubernetic](https://www.kubernetic.com): Supercharge your Kubernetes clusters.
 
-![Deployment of nginx with 2 replicas (version 1.10-alpine)](docs/images/deployment.png)
+![Deployment of nginx with 2 replicas \(version 1.10-alpine\)](docs/features/images/deployment.png)
 
-It provides the following features:
+## Features
 
-* Real time visualization of the Cluster
+**Desktop edition**
 
-Get a view of your cluster with real-time updates directly on your screen.
+* Supports desktop installation on Mac, Windows, Linux operating systems for a single user.
+* Can manage any Kubernetes cluster.
+* Support for multiple clusters.
+* Visualization of Resources with real-time updates, for specific or all namespaces.
+* Visualization of CustomResources and APIResources with real-time updates, for specific or all namespaces.
+* [Helm] 3 support, with the ability to manage private & pubic repositories, charts and releases.
+* Port forwarding of a workload (e.g. pod, deployment, daemonset) or service.
+* Log streaming of a workload or service.
+* Terminal shell of a workload or service.
+* User management.
+* CPU and Memory metrics visualization.
+* _Coming soon:_ Debug shell of a workload or service (bring your own image with debug tooling).
 
-* Support for multiple clusters
+**Enterprise edition (on private beta)**
 
-Switch rapidly between multiple clusters, e.g. Your development and production environment.
+* Deployment on-site, with multiple users.
+* Single sign-on integration with authentication and authorization os user & groups.
+* Support for Operators, with Operator Lifecycle Management integration.
+* [ArgoCD] integration, with the ability to view and manage Applications.
+* _Coming Soon:_ [TektonCD] integration, with the ability to view and manage Pipelines.
 
-* Support for helm chart stores
-
-Fast and easy deployment of public or private chart recipes.
+# Download
 
 To download the client go [here](https://kubernetic.com)
 
-For more information and the tutorial go to the [documentation page](http://docs.kubernetic.com/)
+# Documentation
+
+This repository is published at the [documentation page](http://docs.kubernetic.com/)
 
 ## Reporting Issues
 
 To report issues you can go [here](https://github.com/harbur/kubernetic/issues)
 
+[Helm]: https://helm.sh/
+[ArgoCD]: https://argoproj.github.io/argo-cd/
+[TektonCD]: https://tekton.dev/

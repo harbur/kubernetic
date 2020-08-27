@@ -1,8 +1,7 @@
-<!-- docs/_sidebar.md -->
-
-* [Introduction](/)
+* [Getting Started](/)
 * [Installation](installation.md)
 * [Setup Cluster](setup-cluster/)
+<<<<<<< HEAD
   * [Minikube](setup-cluster/minikube.md)
   * [Docker for Desktop](setup-cluster/docker-for-desktop.md)
   * [Kind](setup-cluster/kind.md)
@@ -39,4 +38,5 @@
   * [Releases](applications/releases.md)
 * [User Management](user-management/)
   * [ServiceAccounts](user-management/serviceaccounts.md)
+* [Next Steps](next-steps.md)
 * [Changelog](changelog.md)
