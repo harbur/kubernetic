@@ -1,4 +1,0 @@
-# Stateful Sets
-
-Coming Soon...
-

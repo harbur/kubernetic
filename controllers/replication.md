@@ -1,4 +1,0 @@
-# Replication
-
-Coming Soon...
-
