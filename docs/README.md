@@ -1,4 +1,4 @@
-# Introduction
+# Getting Started
 
 [Kubernetic](https://www.kubernetic.com): Supercharge your Kubernetes clusters.
 
