@@ -28,4 +28,3 @@
   * [Releases](features/applications/releases.md)
 * [User Management](features/user-management/)
   * [ServiceAccounts](features/user-management/serviceaccounts.md)
-* [Controllers](features/controllers.md)
