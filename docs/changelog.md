@@ -13,7 +13,6 @@
 * feature \#205 Add create application form enterprise
 * feature \#203 Support for Network Policies
 * feature \#201 For Logs view, it would be nice if we could apply a grep to the log stream
-* feature \#190 About application and Learn more doesn't work small
 * fix \#199 2.10.0 Workloads > Deployments > Rollouts sorting is string based not numeric bug
 
 ## [v2.10.0](https://github.com/harbur/kubernetic/milestone/18?closed=1)
