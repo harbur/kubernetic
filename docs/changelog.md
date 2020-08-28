@@ -1,5 +1,21 @@
 # Changelog
 
+## [v2.11.0](https://github.com/harbur/kubernetic/milestone/19?closed=1)
+
+* feature \#213 Watch status of workloads
+* feature \#212 Group impersonation
+* feature \#211 Add Application Backlink
+* feature \#210 Filter logs by keywords
+* feature \#208 Add Application StatusTab
+* feature \#207 User impersonation enterprise
+* feature \#204 Add create ArgoCD CRD options enterprise
+* feature \#206 Dashboard display info for users with reduced privilages
+* feature \#205 Add create application form enterprise
+* feature \#203 Support for Network Policies
+* feature \#201 For Logs view, it would be nice if we could apply a grep to the log stream
+* feature \#190 About application and Learn more doesn't work small
+* fix \#199 2.10.0 Workloads > Deployments > Rollouts sorting is string based not numeric bug
+
 ## [v2.10.0](https://github.com/harbur/kubernetic/milestone/18?closed=1)
 
 * feature \#196 Add Terminal support for all workloads
