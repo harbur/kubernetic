@@ -19,6 +19,7 @@
 * feature \#203 Support for Network Policies
 * feature \#201 For Logs view, it would be nice if we could apply a grep to the log stream
 * fix \#199 2.10.0 Workloads > Deployments > Rollouts sorting is string based not numeric bug
+* fix \#200 on MacOS X Refreshing status use to be automatic and now seems more manual
 
 ## [v2.10.0](https://github.com/harbur/kubernetic/milestone/18?closed=1)
 
@@ -38,7 +39,6 @@
 * fix \#158 Accessibility issue with context and namespace drop-down menus
 * fix \#179 Pod Terminal restarts if Kubernetic get focus again
 * fix \#171 Pod OutOfcpu status reported as Unknown in Kubernetic
-* fix \#200 on MacOS X Refreshing status use to be automatic and now seems more manual
 
 ## [v2.9.0](https://github.com/harbur/kubernetic/milestone/16?closed=1)
 
