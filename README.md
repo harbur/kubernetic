@@ -35,7 +35,12 @@ To download the client go [here](https://kubernetic.com)
 
 # Documentation
 
-This repository is published at the [documentation page](http://docs.kubernetic.com/)
+This repository is published at the [documentation page](http://docs.kubernetic.com/) from `master` branch.
+
+# Branches
+
+* The `master` branch is the live documentation.
+* The `develop` branch is the documentation of next release.
 
 ## Reporting Issues
 
