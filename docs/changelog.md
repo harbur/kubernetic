@@ -1,5 +1,10 @@
 # Changelog
 
+## v2.11.1
+
+* fixes license setup screen
+* fixes chart screen
+
 ## [v2.11.0](https://github.com/harbur/kubernetic/milestone/19?closed=1)
 
 * feature \#213 Watch status of workloads
