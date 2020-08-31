@@ -20,7 +20,7 @@
 * feature \#201 For Logs view, it would be nice if we could apply a grep to the log stream
 * fix \#199 2.10.0 Workloads > Deployments > Rollouts sorting is string based not numeric bug
 * fix \#200 on MacOS X Refreshing status use to be automatic and now seems more manual
-* fix \##174 Scaling up/down a Deployment/Statefulset from the main list should not change current view to the scaled resource
+* fix \#174 Scaling up/down a Deployment/Statefulset from the main list should not change current view to the scaled resource
 
 ## [v2.10.0](https://github.com/harbur/kubernetic/milestone/18?closed=1)
 
