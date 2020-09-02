@@ -1,8 +1,9 @@
 # Enterprise
 
-To install Kubernetic Enterprise, you will need [Helm] CLI tool.
+To install Kubernetic Enterprise, you will need [Helm] and [Kubectl] CLI tools.
 
 [Helm]: https://helm.sh/
+[Kubectl]: https://kubernetes.io/docs/tasks/tools/install-kubectl/
 
 * Add the following chart repository:
 
