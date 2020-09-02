@@ -1,5 +1,5 @@
 * [Getting Started](/)
-* [Installation](installation.md)
+* [Installation](installation/)
 * [Setup Cluster](setup-cluster/)
   * [Minikube](setup-cluster/minikube.md)
   * [Docker for Desktop](setup-cluster/docker-for-desktop.md)

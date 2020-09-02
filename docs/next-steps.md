@@ -4,7 +4,7 @@ Now that you have [installed Kubernetic] and have finished [setting up your clus
 
 ![Dashboard](/features/images/dashboard.png)
 
-[installed Kubernetic]: installation.md
+[installed Kubernetic]: installation/
 [setting up your cluster]: setup-cluster/
 
 ### Continue
