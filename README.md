@@ -37,11 +37,6 @@ To download the client go [here](https://kubernetic.com)
 
 This repository is published at the [documentation page](http://docs.kubernetic.com/) from `master` branch.
 
-# Branches
-
-* The `master` branch is the live documentation.
-* The `develop` branch is the documentation of next release.
-
 ## Reporting Issues
 
 To report issues you can go [here](https://github.com/harbur/kubernetic/issues)
