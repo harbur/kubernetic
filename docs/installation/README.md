@@ -1,6 +1,6 @@
 # Installation
 
-Kubernetic comes in two flavours: [Desktop] and [Enterprise]:
+Kubernetic comes in two flavours:
 
 * [Desktop]: Installation as a Desktop app for single-user.
 * [Enterprise]: Installation in-cluster as Kubernetes management plane by all users.
