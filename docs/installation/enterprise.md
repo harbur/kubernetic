@@ -33,7 +33,7 @@ REVISION: 1
 * Wait for Pods to be running:
 
 ```sh
-(⎈)➜ kubectl get pod -w
+(⎈)➜ kubectl get pod --namespace kubernetic -w
 NAME                                   READY   STATUS    RESTARTS   AGE
 kubernetic-backend-66d49f8d96-7sv77    1/1     Running   0          66s
 kubernetic-frontend-744d647796-8d86r   1/1     Running   0          66s
@@ -42,7 +42,7 @@ kubernetic-frontend-744d647796-8d86r   1/1     Running   0          66s
 * Open connection to Kubernetic with port-forward:
 
 ```sh
-(⎈)➜  ~ kubectl port-forward svc/kubernetic-frontend 5000:80
+(⎈)➜  ~ kubectl port-forward --namespace kubernetic svc/kubernetic-frontend 5000:80
 Forwarding from 127.0.0.1:5000 -> 80
 Forwarding from [::1]:5000 -> 80
 ```
