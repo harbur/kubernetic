@@ -20,7 +20,7 @@ You can install any of these addons by clicking the button "Install". You can ch
 
 In order to have a complete solution for metrics available for all the workloads (pods, deployments, statefulsets, daemonsets and jobs) you will need to install both Metrics Server, and Metrics Scraper. 
 
-After the installation, go to the workloads screen and choose any category. You should be able to see in the top of the screen a graph, displaying the consumption of all objects, of the selected type. Also, in the Status part, the instantenous consumption for each object will be provided.
+After the installation, go to the workloads screen and choose any category. You should be able to see in the top of the screen a graph, displaying the consumption of all objects in the last 15 minutes, of the selected type. Also, in the Status part, the instantenous consumption for each object will be provided. Users can also select a subset of resources, by marking the checkboxes from the left part of the page, in order to see the consumption for that specific list of items.
 
 ![Metrics for pods](../images/metrics.png)
 

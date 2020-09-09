@@ -29,5 +29,9 @@
   * [Releases](features/applications/releases.md)
 * [User Management](features/user-management/)
   * [ServiceAccounts](features/user-management/serviceaccounts.md)
-* [Resources](features/resources/)
-  * [Create](features/resources/create.md)
+* [Cross-section feature](features/crosssections-features/)
+  * [Create](features/crosssections-features/create.md)
+  * [Search Tab](features/crosssections-features/searchtab.md)
+  * [Terminal](features/crosssections-features/terminal.md)
+  * [Port-forwarding](features/crosssections-features/portforwarding.md)
+
