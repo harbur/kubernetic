@@ -32,5 +32,10 @@
   * [ServiceAccounts](features/user-management/serviceaccounts.md)
 * [Enterprise](features/enterprise/)
   * [ArgoCD](features/enterprise/argocd.md)
-* [Resources](features/resources/)
-  * [Create](features/resources/create.md)
+* [Cross-section features](features/crosssections-features/)
+  * [Create](features/crosssections-features/create.md)
+  * [Search Tab](features/crosssections-features/searchtab.md)
+  * [Terminal](features/crosssections-features/terminal.md)
+  * [Port-forwarding](features/crosssections-features/portforwarding.md)
+
+
