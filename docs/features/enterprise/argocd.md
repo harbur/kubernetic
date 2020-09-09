@@ -11,7 +11,7 @@ After you have the OLM installed, go to the "Available Operators" tab, select "a
 
 ![](../images/install-argo.png)
 
-You should have a namespace called **my-argocd-operator** created and, in the side bar, the menu caled **ArgoCD** should have appeared. 
+You should have a namespace called **my-argocd-operator** automatically created during the operator installation and, in the side bar, the menu called **ArgoCD** should have appeared. 
 Go to the ArgoCDs tab and create an ArgoCD instance. Optionally you can add customized specifications in the "spec" rubric. Note that you need to create this instance under the  **my-argocd-operator** namespace
 
 ![](../images/create-argocd.png)
