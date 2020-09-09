@@ -2,7 +2,7 @@
 
 Objects of type secret are intended to hold sensitive information, such as passwords, OAuth tokens, and ssh keys
 
-For more information about Secrets checkout the [Kubernetes User Guide](http://kubernetes.io/docs/user-guide/secrets/).
+For more information about Secrets check out the [Kubernetes User Guide](http://kubernetes.io/docs/user-guide/secrets/).
 
 In this Tutorial we'll see how to build a dynamic Secret and read the secret as a variable from a Pod.
 
