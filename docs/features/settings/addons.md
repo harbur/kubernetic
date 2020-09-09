@@ -26,7 +26,7 @@ After the installation, go to the workloads screen and choose any category. You 
 
 ### Installing the Operator Lifecycle Manager (OLM)
 
-Following the installation of the OLM addon, the Operetors category in the side bar of the application will appear. In this screen, a list of available operators will be shown. 
+Following the installation of the OLM addon, the Operators category in the side bar of the application will appear. In this screen, a list of available operators will be shown. 
 
 ![Operators list](../images/operators.png)
 
