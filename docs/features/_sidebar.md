@@ -29,7 +29,7 @@
   * [Releases](features/applications/releases.md)
 * [User Management](features/user-management/)
   * [ServiceAccounts](features/user-management/serviceaccounts.md)
-* [Cross-section feature](features/crosssections-features/)
+* [Cross-section features](features/crosssections-features/)
   * [Create](features/crosssections-features/create.md)
   * [Search Tab](features/crosssections-features/searchtab.md)
   * [Terminal](features/crosssections-features/terminal.md)
