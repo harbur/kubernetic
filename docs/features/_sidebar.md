@@ -22,6 +22,7 @@
 * [Networking](features/networking/)
   * [Services](features/networking/services.md)
   * [Ingresses](features/networking/ingresses.md)
+  * [Network Policies](features/networking/networkpolicies.md)
 * [Storage](features/storage/)
   * [Volumes](features/storage/volumes.md)
 * [Applications](features/applications/)
@@ -29,10 +30,13 @@
   * [Releases](features/applications/releases.md)
 * [User Management](features/user-management/)
   * [ServiceAccounts](features/user-management/serviceaccounts.md)
+* [Enterprise](features/enterprise/)
+  * [ArgoCD](features/enterprise/argocd.md)
 * [Cross-section features](features/crosssections-features/)
   * [Create](features/crosssections-features/create.md)
   * [Search Tab](features/crosssections-features/searchtab.md)
   * [Filter Logs](features/crosssections-features/filterlogs.md)
   * [Terminal](features/crosssections-features/terminal.md)
   * [Port-forwarding](features/crosssections-features/portforwarding.md)
+
 
