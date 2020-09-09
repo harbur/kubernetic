@@ -1,6 +1,7 @@
 * [Features](features/)
 * [Settings](features/settings/)
   * [Contexts](features/settings/contexts.md)
+  * [Addons](features/settings/addons.md)
   * [Namespaces](features/settings/namespaces.md)
   * [Repositories](features/settings/repositories.md)
 * [Infrastructure](features/infrastructure/)
@@ -28,3 +29,5 @@
   * [Releases](features/applications/releases.md)
 * [User Management](features/user-management/)
   * [ServiceAccounts](features/user-management/serviceaccounts.md)
+* [Resources](features/resources/)
+  * [Create](features/resources/create.md)
