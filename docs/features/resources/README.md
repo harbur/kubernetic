@@ -1,3 +1,3 @@
 # Storage
 
-These information apply for all the resources available in the application.
+This information applies for all the resources available in the application.
