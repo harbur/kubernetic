@@ -32,6 +32,7 @@
   * [ServiceAccounts](features/user-management/serviceaccounts.md)
 * [Enterprise](features/enterprise/)
   * [ArgoCD](features/enterprise/argocd.md)
+  * [Tekton](features/enterprise/tekton.md)
 * [Cross-section features](features/crosssections-features/)
   * [Create](features/crosssections-features/create.md)
   * [Search Tab](features/crosssections-features/searchtab.md)

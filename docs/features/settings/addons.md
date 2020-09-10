@@ -1,5 +1,7 @@
 # Addons
 
+*Since version  v.2.10.0
+
 In the contexts tab, if you click on one of them, a page of addons are available for installation:
 * Metrics Server
 * Metrics Scraper
