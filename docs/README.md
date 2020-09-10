@@ -1,6 +1,6 @@
 # Getting Started
 
-[Kubernetic](https://www.kubernetic.com): Supercharge your Kubernetes clusters.
+[Kubernetic](https://www.kubernetic.com): Supercharge your clusters.
 
 ![Deployment of nginx with 2 replicas \(version 1.10-alpine\)](features/images/deployment.png)
 
