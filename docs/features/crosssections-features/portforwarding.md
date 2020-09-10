@@ -1,5 +1,7 @@
 # Port-forwarding
 
+Note: Port-forwading is supported only in the desktop version of the application.
+
 **Starting a port-forward**
 
 For each workload object (except CronJobs), and for services you are able to start a port forwarding. This option is available only for the objects that have at least one port within its definition.
