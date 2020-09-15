@@ -1,3 +1,3 @@
 * [Getting Started](/)
-<!-- * [Tutorials](/tutorials/) -->
+* [Tutorials](/tutorials/)
 * [Features](/features/)

@@ -9,11 +9,9 @@ Now that you have [installed Kubernetic] and have finished [setting up your clus
 
 ### Continue
 
-<!-- * [Tutorials]: If you'd like to get to know the capabilities of Kubernetes you can go through our tutorials.
+* [Tutorials]: If you'd like to get to know the capabilities of Kubernetes you can go through our tutorials.
 
-* [Features]: If you have previous experience on Kubernetes you can go ahead and shuffle through the features section to get to know better what you can do with Kubernetic. -->
-
-Continue to [Features] section to get to know better what you can do with Kubernetic.
+* [Features]: If you have previous experience on Kubernetes you can go ahead and shuffle through the features section to get to know better what you can do with Kubernetic.
 
 [Features]: features/
 [Tutorials]: tutorials/
