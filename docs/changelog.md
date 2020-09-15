@@ -1,5 +1,22 @@
 # Changelog
 
+## [v2.12.0](https://github.com/harbur/kubernetic/milestone/20?closed=1)
+
+* feature \#221 Add monaco editor 
+* feature \#222 Tekton task status
+* feature \#223 Tekton task start
+* feature \#226 Tekton taskrun logs
+* feature \#225 Tekton taskrun cancel
+* feature \#227 Tekton taskrun status
+* feature \#230 Tekton pipelineruns cancel
+* feature \#229 Tekton pipelineruns status
+* feature \#228 Tekton pipelineruns logs
+* feature \#224 Tekton pipeline start
+* feature \#231 Tekton pipeline status
+* feature \#232 Tekton clusterTask start
+* feature \#233 Tekton clusterTask status
+* feature \#181 Search field is cleared when switching between resources
+
 ## v2.11.1
 
 * fixes license setup screen
