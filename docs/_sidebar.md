@@ -1,5 +1,5 @@
 * [Getting Started](/)
-* [Installation](installation/)
 * [Setup Cluster](setup-cluster/)
+* [Installation](installation/)
 * [Next Steps](next-steps.md)
 * [Changelog](changelog.md)

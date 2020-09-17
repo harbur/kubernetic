@@ -51,20 +51,22 @@ Forwarding from [::1]:5000 -> 80
 
 Continue the setup process on screen.
 
-![](../installation/images/license-activation-screen.png)
+![](../images/license-activation-screen.png)
 
 From this point, if you already have an active license you can insert it and press the "Activate" button. 
 
 In case you do not own an active license press the "Buy license" button and you will be redirected to the [Kubernetic official website](https://www.kubernetic.com/#pricing). Here, press the button "Try Enterprise for Free"
 
-![](../installation/images/pricing.png)
+![](../images/pricing.png)
 
 
 After this you will be redirected to another page where you should complete a form. 
 
-![](../installation/images/activation-form.png)
+![](../images/activation-form.png)
 
-After completing the form, you should recieve an e-mail with a trial license key that will be available for 14 days. Note that the e-mail may not arrive immediately. 
+After completing the form, you should recieve an e-mail with a trial license that will be available for 14 days. Note that the e-mail may not arrive immediately. 
 
-In order to customize the configuration of the application check [Customizition](https://docs.kubernetic.com/#/features/enterprise/config) section.
+
+
+
 
