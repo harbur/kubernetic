@@ -66,5 +66,5 @@ After this you will be redirected to another page where you should complete a fo
 
 After completing the form, you should recieve an e-mail with a trial license key that will be available for 14 days. Note that the e-mail may not arrive immediately. 
 
-In order to customize the configuration of the application check [Customization](https://docs.kubernetic.com/#/features/enterprise/config) section.
+In order to customize the configuration of the application check [Customizition](https://docs.kubernetic.com/#/features/enterprise/config) section.
 
