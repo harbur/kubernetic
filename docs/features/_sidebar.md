@@ -31,6 +31,7 @@
 * [User Management](features/user-management/)
   * [ServiceAccounts](features/user-management/serviceaccounts.md)
 * [Enterprise](features/enterprise/)
+  * [Customization](features/enterprise/config.md)
   * [ArgoCD](features/enterprise/argocd.md)
   * [Tekton](features/enterprise/tekton.md)
 * [Cross-section features](features/crosssections-features/)

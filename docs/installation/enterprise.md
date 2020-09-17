@@ -66,18 +66,5 @@ After this you will be redirected to another page where you should complete a fo
 
 After completing the form, you should recieve an e-mail with a trial license key that will be available for 14 days. Note that the e-mail may not arrive immediately. 
 
-* Customizing config values
+In order to customize the configuration of the application check [Customization](https://docs.kubernetic.com/#/features/enterprise/config) section.
 
-There are some values that can be customized in the configuration of the application. 
-In order to do so, we will need to make use of helm. Firstly, we need to write a values.yaml under the format displayed below:
-
-![](../installation/images/values.png)
-
-
-The values that we can overwrite refer to the format of the logging system and the backlink for ArgoCD deployments. For more details, check the "features" section.
-
-After we have the values.yaml file, we can run the helm upgrade command to update the application.
-
-```sh
-helm upgrade kubernetic --namespace kubernetic kubernetic/kubernetic -f values.yaml
-```
