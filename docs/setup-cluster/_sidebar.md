@@ -1,5 +1,4 @@
 * [Getting Started](/)
-* [Installation](installation/)
 * [Setup Cluster](setup-cluster/)
   * [Minikube](setup-cluster/minikube.md)
   * [Docker for Desktop](setup-cluster/docker-for-desktop.md)
@@ -8,5 +7,6 @@
   * [Google Kubernetes Engine (GKE)](setup-cluster/google-kubernetes-engine-gke.md)
   * [Azure Kubernetes Engine (AKS)](setup-cluster/azure-kubernetes-engine-aks.md)
   * [Elastic Kubernetes Service (EKS)](setup-cluster/elastic-kubernetes-service-eks.md)
+* [Installation](installation/)
 * [Next Steps](next-steps.md)
 * [Changelog](changelog.md)
