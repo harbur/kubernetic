@@ -17,7 +17,7 @@
   * Name: `nginx`
   * Image: `nginx:alpine`
 
-Let's run a simple Deployment with image `nginx:alpine` which runs an [nginx](https://www.nginx.com/) web server. Once the Deployment is created it will manage one running Pod. We can scale up or down the deployment if we want to make sure more than one instances are running at one time. Let's scale it up to two instances. On the logs we can see the output of both Pods running nginx.
+Let's run a simple Deployment with image `nginx:alpine` which runs an [nginx](https://www.nginx.com/) web server. We add port configuration `http:80` which is where nginx listens to. Once the Deployment is created it will manage one running Pod. We can scale up or down the deployment if we want to make sure more than one instances are running at one time. Let's scale it up to two instances. On the logs we can see the output of both Pods running nginx. On ports section we can do port forwarding of the `http:80` port locally and open the URL on the browser by clicking the link to see that it works ok.
 
 ![Nginx Deployment](images/deployments-nginx.gif)
 
