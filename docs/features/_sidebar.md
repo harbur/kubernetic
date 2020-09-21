@@ -19,6 +19,7 @@
   * [Config](features/configuration/config.md)
   * [Secrets](features/configuration/secrets.md)
   * [Autoscalers](features/configuration/autoscalers.md)
+  * [Pomerium](features/configuration/pomerium.md)
 * [Networking](features/networking/)
   * [Services](features/networking/services.md)
   * [Ingresses](features/networking/ingresses.md)

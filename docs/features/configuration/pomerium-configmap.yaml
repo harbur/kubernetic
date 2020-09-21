@@ -1,0 +1,35 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: pomerium
+  namespace: pomerium-demo
+data:
+  config.yaml: |
+    # See detailed configuration settings : https://www.pomerium.io/reference/
+    authenticate_service_url: https://authenticate-demo.pro.harbur.io
+    authorize_service_url: https://authorize-demo.pro.harbur.io
+
+    # identity provider settings : https://www.pomerium.io/docs/identity-providers.html
+    idp_provider: YOUR_IDP_PROVIDER
+    idp_client_id: COMPLETE_WITH_YOUR_CLIENT_ID
+    idp_client_secret: COMPLETE_WITH_YOUR_CLIENT_SECRET
+    idp_service_account: YOUR_SERVICE_ACCOUNT
+
+    policy:
+      - from: https://demo.pro.harbur.io
+        to: http://kubernetic-frontend.pomerium-demo.svc.cluster.local
+        #to: https://httpbin.org
+        allowed_domains:
+          - harbur.io
+      - from: https://httpbin.pro.harbur.io
+        to: https://httpbin.org
+        allowed_domains:
+          - harbur.io
+      - from: https://external-httpbin.pro.harbur.io
+        to: https://httpbin.org
+        allow_public_unauthenticated_access: true
+      - from: https://kubernetic.pro.harbur.io
+        to: http://kubernetic-frontend.kubernetic-pro.svc.cluster.local
+        allow_websockets: true
+        allowed_domains:
+          - harbur.io
