@@ -34,7 +34,7 @@
   * [Customization](features/enterprise/config.md)
   * [ArgoCD](features/enterprise/argocd.md)
   * [Tekton](features/enterprise/tekton.md)
-  * [Single Sign On](features/configuration/pomerium.md)
+  * [Single Sign On](features/enterprise/pomerium.md)
 * [Cross-section features](features/crosssections-features/)
   * [Create](features/crosssections-features/create.md)
   * [Search Tab](features/crosssections-features/searchtab.md)
