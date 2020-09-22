@@ -2,11 +2,11 @@
 
 Pomerium is an identity-aware proxy that enables secure access to internal applications. Pomerium provides a standardized interface to add access control to applications regardless of whether the application itself has authorization or authentication baked-in. After configuring Pomerium. For more information abour Pomerium check    [Pomerium official documentation](https://www.pomerium.io/docs/).
 
-In order to set up Pomerium for Kubernetic app, you will need to make use of [Helm](https://helm.sh/). Note that you also need having the Enterprise version of Kubernetic installed in your local.
+In order to set up Pomerium for Kubernetic app, you will need to make use of [Helm](https://helm.sh/). Note that you also need having the Enterprise version of Kubernetic installed in your cluster.
 
 ## Setting your Identity Provider Configuration
 
-Firstly, in order to use Pomerium you will need to set an Identity Provider Configuration that will implement the SSO (Single Sign On) authenthication to Kubernetic. [Here](https://www.pomerium.io/docs/identity-providers/) you can find a guide on how to do that. You can choose from various platforms like Azure AD, AWS Cognito, Github, Gitlab, Google/GSuite, Okta and OneLogin. In this guide we have used [Google OAuth](https://www.pomerium.io/docs/identity-providers/google.html).
+Firstly, in order to use Pomerium you will need to set an Identity Provider Configuration that will implement the SSO (Single Sign On) authentication to Kubernetic. [Here](https://www.pomerium.io/docs/identity-providers/) you can find a guide on how to do that. You can choose from various platforms like Azure AD, AWS Cognito, Github, Gitlab, Google/GSuite, Okta and OneLogin. In this guide we have used [Google OAuth](https://www.pomerium.io/docs/identity-providers/google.html).
 
 ## Installation
 
@@ -19,7 +19,7 @@ In order to install Pomerium, you will need to vreate a values.yaml file, that w
 
 Example of values.yaml file:
 
-[values.yaml](../configuration/values.yaml ':include :type=code')
+[values.yaml](../enterprise/values-config.yaml ':include :type=code')
 
 When you have your values.yaml field configured properly for your own environment you can install Pomerium using Helm.
 1)  Add the Helm Repo
@@ -51,6 +51,6 @@ pomerium-demo-proxy-7bc87577db-g6w2l         1/1     Running
 
 After the installation of Pomerium is complete you will also need two more objects: one ConfigMap and one Ingress
 
-[pomerium-ingress.yaml](../configuration/pomerium-ingress.yaml ':include :type=code')
+[pomerium-ingress.yaml](../enterprise/pomerium-ingress.yaml ':include :type=code')
 
-[pomerium-configmap.yaml](../configuration/pomerium-configmap.yaml ':include :type=code')
+[pomerium-configmap.yaml](../enterprise/pomerium-configmap.yaml ':include :type=code')

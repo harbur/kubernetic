@@ -32,10 +32,7 @@ authenticate:
           - user
         allowed_domains:
           - harbur.io
-      - from: https://external-httpbin.pro.harbur.io
-        to: https://httpbin.org
-        allow_public_unauthenticated_access: true
-      - from: https://kubernetic.pro.harbur.io
+      - from: http://demo.pro.harbur.io
         to: http://kubernetic-frontend.kubernetic-pro.svc.cluster.local
         pass_identity_headers: true
         allow_websockets: true

@@ -16,20 +16,8 @@ data:
     idp_service_account: YOUR_SERVICE_ACCOUNT
 
     policy:
-      - from: https://demo.pro.harbur.io
+      - from: http://demo.pro.harbur.io
         to: http://kubernetic-frontend.pomerium-demo.svc.cluster.local
         #to: https://httpbin.org
-        allowed_domains:
-          - harbur.io
-      - from: https://httpbin.pro.harbur.io
-        to: https://httpbin.org
-        allowed_domains:
-          - harbur.io
-      - from: https://external-httpbin.pro.harbur.io
-        to: https://httpbin.org
-        allow_public_unauthenticated_access: true
-      - from: https://kubernetic.pro.harbur.io
-        to: http://kubernetic-frontend.kubernetic-pro.svc.cluster.local
-        allow_websockets: true
         allowed_domains:
           - harbur.io
