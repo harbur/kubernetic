@@ -26,4 +26,4 @@ Choose your Tutorial that you want to begin from the list below:
 | [Jobs](/tutorials/workloads/jobs/)                 | Create Jobs         | -                             |
 
 
-?> It is recommended to follow the series sections in order of appearance.
+?> Each tutorial is independent but it is recommended to follow the tutorials in order of appearance.
