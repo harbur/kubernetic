@@ -1,5 +1,7 @@
 # Configuration
 
+*Since version  v.2.13.0
+
 ?> During this tutorial series you'll learn how to manage configuration on Kubernetes.
 
 * Level: *beginner*
