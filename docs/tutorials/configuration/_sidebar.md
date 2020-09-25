@@ -2,5 +2,6 @@
 * [Workloads](/tutorials/workloads/)
 * [Networking](/tutorials/networking/)
 * [Configuration](/tutorials/configuration/)
-  * [ConfigMaps](/tutorials/networking/configmaps/)
-  * [Secrets](/tutorials/networking/secrets/)
+  * [Env Variables](/tutorials/configuration/env/)
+  * [ConfigMaps](/tutorials/configuration/configmaps/)
+  * [Secrets](/tutorials/configuration/secrets/)
