@@ -71,3 +71,4 @@ Remember to delete the following resources after you finish this tutorial:
 * on _active_ namespace:
   * `deployments/nginx`
   * `deployments/nginx-volume`
+  * `configmaps/nginx-config`
