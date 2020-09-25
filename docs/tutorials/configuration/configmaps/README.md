@@ -9,7 +9,9 @@
 * Can run on Namespace: *any*
 * Images used: `nginx:alpine`
 
-> [ConfigMaps](https://kubernetes.io/docs/concepts/configuration/configmap/) are TBD.
+> [ConfigMaps](https://kubernetes.io/docs/concepts/configuration/configmap/) allow you to decouple configuration from container images, so that your applications are easily portable.
+
+!> ConfigMaps do not provide secrecy or encryption. If the data you want to store are confidential, use a Secret rather than a ConfigMap.
 
 ## Nginx with ConfigMap as Env Variables
 
