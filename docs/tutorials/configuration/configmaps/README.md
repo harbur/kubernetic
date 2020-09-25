@@ -56,10 +56,9 @@ Once created we can open a terminal and check the path `/storage`. It should con
 ~ # cd /storage/
 /storage # ls
 COLOR  DAY
-/storage # tail *
-==> COLOR <==
+/storage # cat COLOR
 blue
-==> DAY <==
+/storage # cat DAY
 monday
 ```
 
