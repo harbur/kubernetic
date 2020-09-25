@@ -7,7 +7,6 @@
 * Previous Tutorials Series: *none*
 * Can run on Cluster: *any* or [multi-node](/tutorials/clusters/multi-node)
 * Can run on Namespace: *any*
-* Tutorials: [Pods](/tutorials/workloads/pods/), [Deployments](/tutorials/workloads/deployments/), [StatefulSets](/tutorials/workloads/statefulsets/), [DaemonSets](/tutorials/workloads/daemonsets/), [Jobs](/tutorials/workloads/jobs/)
 
 > [Workloads](https://kubernetes.io/docs/concepts/workloads/) represent the deployment and management of different type of containerized applications on your Kubernetes clusters. Workloads maybe used to run stateless or stateful applications, batch jobs, or daemons.
 > 
