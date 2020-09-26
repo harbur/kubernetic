@@ -35,9 +35,9 @@ Now that we have created the Claim and is bound properly, let's create the Nginx
 Once created we can open a terminal and check the mounted volume is there, we create an `README.txt` file with some contents, restart the StatefulSet and check again to make sure the data are persistent across restarts.
 
 ```sh
-~ # cd /storage/
+/ # cd /storage/
 /storage # ls
-lost & found
+lost+found
 /storage # echo Hello > README.txt
 /storage # cat README.txt
 Hello
