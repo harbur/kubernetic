@@ -1,4 +1,4 @@
-# Claim
+# Storage
 
 *Since version  v.2.13.0
 
