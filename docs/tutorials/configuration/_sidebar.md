@@ -5,3 +5,4 @@
   * [Env Variables](/tutorials/configuration/env/)
   * [ConfigMaps](/tutorials/configuration/configmaps/)
   * [Secrets](/tutorials/configuration/secrets/)
+* [Storage](/tutorials/storage/)

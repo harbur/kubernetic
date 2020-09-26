@@ -4,3 +4,4 @@
   * [Services](/tutorials/networking/services/)
   * [Ingresses](/tutorials/networking/ingresses/)
 * [Configuration](/tutorials/configuration/)
+* [Storage](/tutorials/storage/)

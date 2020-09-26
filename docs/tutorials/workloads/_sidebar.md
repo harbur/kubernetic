@@ -7,3 +7,4 @@
   * [Jobs](/tutorials/workloads/jobs/)
 * [Networking](/tutorials/networking/)
 * [Configuration](/tutorials/configuration/)
+* [Storage](/tutorials/storage/)
