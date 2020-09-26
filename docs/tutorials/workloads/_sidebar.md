@@ -6,3 +6,4 @@
   * [DaemonSets](/tutorials/workloads/daemonsets/)
   * [Jobs](/tutorials/workloads/jobs/)
 * [Networking](/tutorials/networking/)
+* [Configuration](/tutorials/configuration/)
