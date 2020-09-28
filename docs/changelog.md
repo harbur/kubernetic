@@ -1,5 +1,15 @@
 # Changelog
 
+## [v2.13.0](https://github.com/harbur/kubernetic/milestone/21?closed=1)
+
+* feature \#248 Add volumes configuration on Workloads creation
+* feature \#243 Add ports configuration on Workloads creation
+* feature \#246 Add configmaps configuration on Workloads creation
+* doc \#251 Add storage tutorial series
+* doc \#245 Add configuration tutorial series
+* fix \#238 Values text box in release edit is too small on Mac OS bug
+* fix \#237 Update not working on MacOS
+
 ## [v2.12.0](https://github.com/harbur/kubernetic/milestone/20?closed=1)
 
 * feature \#221 Add monaco editor 
