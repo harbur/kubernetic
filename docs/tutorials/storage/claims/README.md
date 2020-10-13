@@ -1,6 +1,8 @@
 # Claims
 
-?> During this tutorial you'll learn how to manage Claims on Kubernetes.
+::: tip
+During this tutorial you'll learn how to manage Claims on Kubernetes.
+:::
 
 * Level: *beginner*
 * Requirements: *default StorageClass*
@@ -21,9 +23,11 @@ First let's go and create a Claim of `1Gi`. Once the Claim is created it will fi
   * Name: `pvc-test`
   * Capacity Storage: `1Gi`
 
-![PVC Test](images/pvc-test.gif)
+![PVC Test](./images/pvc-test.gif)
 
-!> You need to have a default StorageClass configured in your cluster so that Claims can be provisioned.
+::: warning
+You need to have a default StorageClass configured in your cluster so that Claims can be provisioned.
+:::
 
 Now that we have created the Claim and is bound properly, let's create the Nginx instance and mount the Claim. We use StatefulSet as they are more appropriate when persistent data are involved:
 
@@ -43,7 +47,7 @@ lost+found
 Hello
 ```
 
-![Nginx StatefulSet with Claim](images/statefulsets-nginx-with-claim.gif)
+![Nginx StatefulSet with Claim](./images/statefulsets-nginx-with-claim.gif)
 
 ## Cleanup
 

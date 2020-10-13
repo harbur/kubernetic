@@ -2,9 +2,14 @@
 
 In this section you'll setup a Kubernetes cluster locally in your machine.
 
-?> If you already have a cluster running  you can skip this section and go to Cluster Authentication.
+::: tip
+If you already have a cluster running you can skip this section and go to [Installation](/installation/).
+:::
 
-We'll cover two ways to run a cluster locally, the first is using [Minikube](https://github.com/kubernetes/minikube/), the second is using [Docker CE](https://docs.docker.com/install/).
+There are various ways to get a Kubernetes cluster up and running, below is a list them and a guide for each one.
 
 Choose one way and follow the guide below to prepare the environment. Once the environment is ready you should have a kubernetes cluster up and running and the credentials prepared in order to connect with the cluster.
 
+::: tip
+If you are unsure and want to try out without a cloud provider you can start out with [Minikube](/setup-cluster/minikube).
+:::

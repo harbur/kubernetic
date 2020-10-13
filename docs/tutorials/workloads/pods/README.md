@@ -1,6 +1,8 @@
 # Pods
 
-?> During this tutorial you'll learn how to manage Pods on Kubernetes.
+::: tip
+During this tutorial you'll learn how to manage Pods on Kubernetes.
+:::
 
 * Level: *beginner*
 * Requirements: *none*
@@ -25,7 +27,7 @@ On the Logs of the Pod you can see the output of the container.
 
 Once you finish with the Pod you can safely delete it.
 
-![Hello world Pod](images/pods-hello-world.gif)
+![Hello world Pod](./images/pods-hello-world.gif)
 
 ## Clock
 
@@ -36,7 +38,7 @@ We've seen how to run a short-lived pod, now let's run a more normal use-case wh
 
 In difference with previous example, this pod will stay alive (`Running` state).
 
-![Clock Pod](images/pods-clock.gif)
+![Clock Pod](./images/pods-clock.gif)
 
 ## Cleanup
 

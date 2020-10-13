@@ -2,7 +2,9 @@
 
 *Since version  v.2.13.0
 
-?> During this tutorial you'll learn how to manage Storage on Kubernetes.
+::: tip
+During this tutorial you'll learn how to manage Storage on Kubernetes.
+:::
 
 * Level: *beginner*
 * Requirements: *default StorageClass*
@@ -20,4 +22,6 @@ Choose your Tutorial that you want to begin from the list below:
 |------------------------------------|----------------------------------|----------|
 | [Claims](tutorials/storage/claims/) | Configure StatefulSet with Claim |          |
 
-!> You need to have a default StorageClass configured in your cluster so that Claims can be provisioned.
+::: warning
+You need to have a default StorageClass configured in your cluster so that Claims can be provisioned.
+:::

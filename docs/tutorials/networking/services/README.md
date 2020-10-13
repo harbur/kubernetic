@@ -1,6 +1,8 @@
 # Services
 
-?> During this tutorial you'll learn how to manage Services on Kubernetes.
+::: tip
+During this tutorial you'll learn how to manage Services on Kubernetes.
+:::
 
 * Level: *beginner*
 * Requirements: *none*
@@ -21,7 +23,7 @@ A Service connects a set of pre-existing Pods by using the `.spec.selector` fiel
 
 So, first create a Deployment with name `nginx` and image `nginx:alpine` which runs an [nginx](https://www.nginx.com/) web server, and scale up to two instances.
 
-![Nginx Deployment](images/deployments-nginx.gif)
+![Nginx Deployment](./images/deployments-nginx.gif)
 
 ## Nginx ClusterIP Service
 
@@ -41,7 +43,7 @@ We can also go to the `Ports` tab and start port-forwarding to a local port. We 
 
 > `ClusterIP` service type is the most restrictive type of Service, as it is only accessible from within the Cluster.
 
-![Nginx Service ClusterIP](images/services-nginx-clusterip.gif)
+![Nginx Service ClusterIP](./images/services-nginx-clusterip.gif)
 
 ## Nginx NodePort Service
 
@@ -57,7 +59,7 @@ Let's delete previous Service now and instead create a Service of type `NodePort
 
 > `NodePort` service type extends `ClusterIP` type by also sending traffic from the node port to the service Cluster IP.
 
-![Nginx Service NodePort](images/services-nginx-nodeport.gif)
+![Nginx Service NodePort](./images/services-nginx-nodeport.gif)
 
 ## Nginx LoadBalancer Service
 
@@ -68,7 +70,9 @@ Let's delete previous Service now and instead create a Service of type `NodePort
     * Port: `80`
     * Target Port: `80`
 
-!> In order to create a Service type `LoadBalancer` you need a Kubernetes provided by a cloud-provider, e.g. [GKE](/setup-cluster/google-kubernetes-engine-gke).
+::: warning
+In order to create a Service type `LoadBalancer` you need a Kubernetes provided by a cloud-provider, e.g. [GKE](/setup-cluster/google-kubernetes-engine-gke).
+:::
 
 Let's delete previous Service now and instead create a Service of type `LoadBalancer`. `LoadBalancer` service exposes publicly the service by instructing an external LoadBalancer to redirect traffic to the Service. The Service will receive a public IP which can then be used to receive requests.
 
@@ -76,7 +80,7 @@ Once created, we go to the `Terminal` and try the following command `curl <EXTER
 
 > `LoadBalancer` service type extends `NodePort` type by also instructing an external LoadBalancer to redirect traffic to the respective Service.
 
-![Nginx Service LoadBalancer](images/services-nginx-loadbalancer.gif)
+![Nginx Service LoadBalancer](./images/services-nginx-loadbalancer.gif)
 
 ## Cleanup
 

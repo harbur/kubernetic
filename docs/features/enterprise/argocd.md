@@ -11,7 +11,7 @@ In order to set up ArgoCD to work with Kubernetic you, firstly, need to install 
 
 After you have the OLM installed, go to the "Available Operators" tab, select "argocd-operator" and press "Install"
 
-![](../images/install-argo.png)
+![](../images/install-argocd.png)
 
 You should have a namespace called **my-argocd-operator** automatically created during the operator installation and, in the side bar, the menu called **ArgoCD** should have appeared. 
 Go to the ArgoCDs tab and create an ArgoCD instance. Optionally you can add customized specifications in the "spec" rubric. Note that you need to create this instance under the  **my-argocd-operator** namespace

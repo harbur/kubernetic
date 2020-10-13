@@ -6,15 +6,17 @@ k3d is a lightweight wrapper to run k3s (Rancher Lab’s minimal Kubernetes dist
 
 k3d makes it very easy to create single- and multi-node k3s clusters in docker, e.g. for local development on Kubernetes.
 
-<!-- tabs:start -->
+:::: tabs
 
-#### ** with Homebrew **
+::: tab with Homebrew
 
 ```bash
 > brew install k3d
 ```
 
-#### ** with script **
+:::
+
+::: tab with script
 
 1. with wget:
 
@@ -28,19 +30,25 @@ k3d makes it very easy to create single- and multi-node k3s clusters in docker, 
   > curl -s https://raw.githubusercontent.com/rancher/k3d/main/install.sh | bash
   ```
 
-#### ** on ArchLinux **
+:::
+
+::: tab on ArchLinux
 
  ```bash
 > yay -S rancher-k3d-bin
 ```
 
-#### ** with Go **
+:::
+
+::: tab with Go
 
 ```bash
 > go install github.com/rancher/k3d
 ```
 
-#### ** with Arkade **
+:::
+
+::: tab with Arkade
 
 1. Install [arkade](https://github.com/alexellis/arkade/)
 
@@ -50,7 +58,9 @@ k3d makes it very easy to create single- and multi-node k3s clusters in docker, 
 > arkade get k3d
 ```
 
-<!-- tabs:end -->
+:::
+
+::::
 
 ### Start a Cluster
 
@@ -70,3 +80,7 @@ k3d makes it very easy to create single- and multi-node k3s clusters in docker, 
  ```bash
 > kubectl get svc
 ```
+
+::: tip
+Now you have a working Kubernetes cluster running locally using **K3d** and have proper authentication using **kubectl** to connect to the cluster you can proceed to Kubernetic [Installation](/installation/) guide.
+:::

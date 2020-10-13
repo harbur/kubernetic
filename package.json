@@ -1,0 +1,25 @@
+{
+  "name": "kubernetic",
+  "version": "1.0.0",
+  "description": "[Kubernetic](https://www.kubernetic.com): Supercharge your Kubernetes clusters.",
+  "dependencies": {
+    "@vuepress/plugin-google-analytics": "^1.6.0",
+    "vuepress": "^1.6.0",
+    "vuepress-plugin-element-tabs": "^0.2.8"
+  },
+  "scripts": {
+    "build": "vuepress build docs",
+    "start": "vuepress dev docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harbur/kubernetic.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harbur/kubernetic/issues"
+  },
+  "homepage": "https://github.com/harbur/kubernetic#readme"
+}

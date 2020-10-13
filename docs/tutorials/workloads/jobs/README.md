@@ -1,6 +1,8 @@
 # Jobs
 
-?> During this tutorial you'll learn how to manage Jobs on Kubernetes.
+::: tip
+During this tutorial you'll learn how to manage Jobs on Kubernetes.
+:::
 
 * Level: *beginner*
 * Requirements: *none*
@@ -19,7 +21,7 @@
 
 Let's run a simple Job with image `hello-world` which prints out a message on screen and exits.
 
-![Hello world Job](images/jobs-hello-world.gif)
+![Hello world Job](./images/jobs-hello-world.gif)
 
 ## Cleanup
 

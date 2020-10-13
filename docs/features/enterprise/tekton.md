@@ -32,7 +32,7 @@ A TaskRun instantiates a Task for execution with specific inputs, outputs, and e
 
 If you enter in the "taskruns" subcategory you will be able to see a list of all the TaskRuns that are in the current namespace. The options available are to edit to delete TaskRuns. If you click on a specific TaskRun you will be able to see its status, the pods associated with it and their status, as well.
 
-![](../images/tekton-taskruns.png)
+![](../images/tekton-taskrun.png)
 
 **ClusterTasks**
 

@@ -1,6 +1,8 @@
 # Daemonsets
 
-?> During this tutorial you'll learn how to manage Daemonsets on Kubernetes.
+::: tip
+During this tutorial you'll learn how to manage Daemonsets on Kubernetes.
+:::
 
 * Level: *beginner*
 * Requirements: *none*
@@ -21,7 +23,7 @@
 
 Let's run a [fluentd] instance on each node of our cluster. We run a multi-node cluster with 1 master and 2 workers. The daemonset by default is not running on the master unless you add a [toleration](https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/#writing-a-daemonset-spec), so it will run on the two workers.
 
-![Fluend DaemonSet](images/daemonsets-fluentd.gif)
+![Fluend DaemonSet](./images/daemonsets-fluentd.gif)
 
 [fluentd]: https://www.fluentd.org/
 

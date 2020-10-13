@@ -4,19 +4,16 @@
 
 Docker for Desktop is ideal for developers and small teams looking to get started with Docker and experimenting with container-based apps. Docker Desktop has two update channels, **stable** and **edge**:  
 
-<!-- tabs:start -->
-
-#### ** Docker for Mac **
-
+:::: tabs
+::: tab Docker for Mac
 Follow the installation steps for [Docker for Mac](https://docs.docker.com/docker-for-mac/install/).
-
-#### ** Docker for Windows **
-
+:::
+::: tab Docker for Windows
 Follow the installation steps for [Docker for Windows](https://docs.docker.com/docker-for-windows/install/).
+:::
+::::
 
-<!-- tabs:end -->
-
-?> For more details on the installation process proceed [here](https://docs.docker.com/install/).
+For more details on the installation process proceed [here](https://docs.docker.com/install/).
 
 ### Verify Installation
 
@@ -40,8 +37,8 @@ docker-for-desktop   Ready     master    1m        v1.10.3
 ```
 
 
-
-?> Now you have a working Kubernetes cluster running locally using **Docker for Desktop** and have proper authentication using **kubectl** to connect to the cluster. You can launch **Kubernetic** to connect to the cluster.
-
+::: tip
+Now you have a working Kubernetes cluster running locally using **Docker for Desktop** and have proper authentication using **kubectl** to connect to the cluster you can proceed to Kubernetic [Installation](/installation/) guide.
+:::
 
 

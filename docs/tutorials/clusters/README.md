@@ -1,6 +1,8 @@
 # Clusters
 
-?> During this tutorial you'll learn how to setup a Cluster on Kubernetes.
+::: tip
+During this tutorial you'll learn how to setup a Cluster on Kubernetes.
+:::
 
 * Level: *beginner*
 * Requirements: *none*

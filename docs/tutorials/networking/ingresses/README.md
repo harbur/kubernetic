@@ -1,6 +1,8 @@
 # Ingresses
 
-?> During this tutorial you'll learn how to manage Ingresses on Kubernetes.
+::: tip
+During this tutorial you'll learn how to manage Ingresses on Kubernetes.
+:::
 
 * Level: *beginner*
 * Requirements: *none*
@@ -13,7 +15,8 @@
 
 ## Setup Ingress Controller
 
-!> For Ingresses to be functional in your cluster, you first need to have an Ingress Controller running. As a quick example to setup a cluster locally with Ingress Controller you can use [minikube](/setup-cluster/minikube):
+::: warning
+For Ingresses to be functional in your cluster, you first need to have an Ingress Controller running. As a quick example to setup a cluster locally with Ingress Controller you can use [minikube](/setup-cluster/minikube):
 
 ```bash
 # Start minikube
@@ -23,6 +26,8 @@ minikube addons enable ingress
 # annotate IP (In the example seen is "192.168.64.28")
 minikube ip
 ```
+
+:::
 
 ## Simple fanout
 
@@ -45,7 +50,7 @@ First we'll create a deployment and service for `coffee`:
     * Port: `80`
     * Target Port: `80`
 
-![Deployment Coffee](images/deployment-coffee.gif)
+![Deployment Coffee](./images/deployment-coffee.gif)
 
 We'll also create a deployment and service for `tea`:
 
@@ -58,7 +63,7 @@ We'll also create a deployment and service for `tea`:
     * Port: `80`
     * Target Port: `80`
 
-![Deployment Tea](images/deployment-tea.gif)
+![Deployment Tea](./images/deployment-tea.gif)
 
 And then we'll create an Ingress rule that implements the above schema:
 
@@ -74,4 +79,4 @@ Once we create the Ingress, we can check the following URLs are functional:
 * `192.168.64.28.xip.io/coffee`: We can check that one of the Pods of `coffee` deployment responds.
 * `192.168.64.28.xip.io/tea`: We can check that one of the Pods of `tea` deployment responds.
 
-![Ingress](images/ingress.gif)
+![Ingress](./images/ingress.gif)

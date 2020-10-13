@@ -23,3 +23,6 @@ To prepare a Kubernetes cluster on Azure with Active Directory follow [this guid
 
 ```
 
+::: tip
+Now you have a working Kubernetes cluster running locally using **AKS** and have proper authentication using **kubectl** to connect to the cluster you can proceed to Kubernetic [Installation](/installation/) guide.
+:::

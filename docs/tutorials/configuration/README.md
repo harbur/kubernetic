@@ -2,7 +2,9 @@
 
 *Since version  v.2.13.0
 
-?> During this tutorial series you'll learn how to manage configuration on Kubernetes.
+::: tip
+During this tutorial series you'll learn how to manage configuration on Kubernetes.
+:::
 
 * Level: *beginner*
 * Requirements: *none*
@@ -18,10 +20,12 @@
 
 Choose your Tutorial that you want to begin from the list below:
 
-| Name                                              | Description                                                 | Features |
-|---------------------------------------------------|-------------------------------------------------------------|----------|
-| [Env](tutorials/configuration/env/)               | Configure Deployment with EnvVars                           |          |
-| [ConfigMaps](tutorials/configuration/configmaps/) | Configure Deployment with ConfigMap as EnvVars or as Volume |          |
-| [Secrets](/tutorials/configuration/secrets/)      | Configure Deployment with Secret as EnvVars or as Volume    |          |
+| Name                      | Description                                                 | Features |
+|---------------------------|-------------------------------------------------------------|----------|
+| [Env](env/)               | Configure Deployment with EnvVars                           |          |
+| [ConfigMaps](configmaps/) | Configure Deployment with ConfigMap as EnvVars or as Volume |          |
+| [Secrets](secrets/)       | Configure Deployment with Secret as EnvVars or as Volume    |          |
 
-?> Each tutorial is independent but it is recommended to follow the tutorials in order of appearance.
+::: tip
+Each tutorial is independent but it is recommended to follow the tutorials in order of appearance.
+:::

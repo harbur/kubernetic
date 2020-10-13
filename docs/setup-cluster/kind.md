@@ -15,21 +15,24 @@ Please use the latest Go when installing KIND from source, ideally go 1.14 or gr
 Without installing Go, kind can be built reproducibly with docker using make build.
 Stable releases are generally recommended for CI usage in particular. To install, download the binary for your platform from “Assets” and place this into your $PATH .
 
-<!-- tabs:start -->
+:::: tabs
 
-#### ** Mac (with brew) **
+::: tab Mac (with brew)
 
 ```bash
 > brew install kind
 ```
+:::
 
-#### ** Mac (without brew) **
+::: tab Mac (without brew)
 
 ```bash
 > curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.8.1/kind-darwin-amd64
 ```
 
-#### ** Linux **
+:::
+
+::: tab Linux
 
 ```bash
 > curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.8.1/kind-linux-amd64
@@ -37,7 +40,9 @@ chmod +x ./kind
 mv ./kind /some-dir-in-your-PATH/kind
 ```
 
-#### ** Windows (with Chocolatey) **
+:::
+
+::: tab Windows (with Chocolatey)
 
 1. Install [Chocolatey](https://chocolatey.org/)
 
@@ -47,14 +52,16 @@ mv ./kind /some-dir-in-your-PATH/kind
 > choco install kind
 ```
 
-#### ** Windows **
+:::
+
+::: tab Windows
 
 ```bash
 > curl.exe -Lo kind-windows-amd64.exe https://kind.sigs.k8s.io/dl/v0.8.1/kind-windows-amd64
 Move-Item .\kind-windows-amd64.exe c:\some-dir-in-your-PATH\kind.exe
 ```
 
-<!-- tabs:end -->
+::::
 
 ### Start a Cluster
 
@@ -66,3 +73,7 @@ Move-Item .\kind-windows-amd64.exe c:\some-dir-in-your-PATH\kind.exe
 This will bootstrap a Kubernetes cluster using a pre-built node image - you can find it on [docker hub](https://hub.docker.com/r/kindest/node//).
 By default, the cluster will be given the name kind. Use the --name flag to assign the cluster a different context name.
 
+
+::: tip
+Now you have a working Kubernetes cluster running locally using **Kind** and have proper authentication using **kubectl** to connect to the cluster you can proceed to Kubernetic [Installation](/installation/) guide.
+:::

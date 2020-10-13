@@ -1,7 +1,0 @@
-* [Getting Started](/)
-* [Setup Cluster](setup-cluster/)
-* [Installation](installation/)
-  * [Desktop](installation/desktop.md)
-  * [Enterprise](installation/enterprise.md)
-* [Next Steps](next-steps.md)
-* [Changelog](changelog.md)

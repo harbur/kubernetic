@@ -1,6 +1,8 @@
 # Deployments
 
-?> During this tutorial you'll learn how to manage Deployments on Kubernetes.
+::: tip
+During this tutorial you'll learn how to manage Deployments on Kubernetes.
+:::
 
 * Level: *beginner*
 * Requirements: *none*
@@ -19,7 +21,7 @@
 
 Let's run a simple Deployment with image `nginx:alpine` which runs an [nginx](https://www.nginx.com/) web server. We add port configuration `http:80` which is where nginx listens to. Once the Deployment is created it will manage one running Pod. We can scale up or down the deployment if we want to make sure more than one instances are running at one time. Let's scale it up to two instances. On the logs we can see the output of both Pods running nginx. On ports section we can do port forwarding of the `http:80` port locally and open the URL on the browser by clicking the link to see that it works ok.
 
-![Nginx Deployment](images/deployments-nginx.gif)
+![Nginx Deployment](./images/deployments-nginx.gif)
 
 ### Update Version
 
@@ -30,19 +32,19 @@ When updating the deployment, the `spec.strategy` dictates how the pods will be 
 [Rolling Update Deployment]: https://kubernetes.io/docs/concepts/workloads/controllers/deployment/#rolling-update-deployment
 [Alpine]: https://alpinelinux.org/about/
 
-![Nginx Deployment Update version](images/deployments-nginx-update-version.gif)
+![Nginx Deployment Update version](./images/deployments-nginx-update-version.gif)
 
 ### Undo
 
 Changes on the Deployment are registered as Revisions (A limit of number of revisions can be defined as `.spec.revisionHistoryLimit`). You can undo changes on a deployment by clicking `Undo` on a previous Revision under the `Rollout` tab.
 
-![Nginx Deployment Undo](images/deployments-nginx-undo.gif)
+![Nginx Deployment Undo](./images/deployments-nginx-undo.gif)
 
 ### Restart
 
 Let's perform now a restart without changing the deployment, click on the `Restart` button. This will enforce a rolling update (or the chosen `.spec.strategy` strategy) and will create fresh Pods for your Deployment.
 
-![Nginx Deployment Restart](images/deployments-nginx-restart.gif)
+![Nginx Deployment Restart](./images/deployments-nginx-restart.gif)
 
 ## Cleanup
 

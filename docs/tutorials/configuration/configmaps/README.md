@@ -1,6 +1,8 @@
 # ConfigMaps
 
-?> During this tutorial you'll learn how to manage ConfigMaps on Kubernetes.
+::: tip
+During this tutorial you'll learn how to manage ConfigMaps on Kubernetes.
+:::
 
 * Level: *beginner*
 * Requirements: *none*
@@ -11,7 +13,9 @@
 
 > [ConfigMaps](https://kubernetes.io/docs/concepts/configuration/configmap/) allow you to decouple configuration from container images, so that your applications are easily portable.
 
-!> ConfigMaps do not provide secrecy or encryption. If the data you want to store are confidential, use a Secret rather than a ConfigMap.
+::: warning
+ConfigMaps do not provide secrecy or encryption. If the data you want to store are confidential, use a [Secret](../secrets) rather than a ConfigMap.
+:::
 
 ## Nginx with ConfigMap as Env Variables
 
@@ -23,7 +27,7 @@ First let's go and create a ConfigMap with some values.
   * Name: `nginx-config`
   * Data: [`COLOR:blue`, `DAY:monday`]
 
-![Nginx ConfigMap](images/configmaps-nginx.gif)
+![Nginx ConfigMap](./images/configmaps-nginx.gif)
 
 Now that we have created the ConfigMap, let's create the Nginx instance and configure two environment variables that take their value from the ConfigMap.
 
@@ -41,7 +45,7 @@ COLOR=blue
 DAY=monday
 ```
 
-![Nginx Deployment with ConfigMap Envs](images/deployments-nginx-with-configmap-envs.gif)
+![Nginx Deployment with ConfigMap Envs](./images/deployments-nginx-with-configmap-envs.gif)
 
 ## Nginx with ConfigMap as Volume
 
@@ -64,7 +68,7 @@ blue
 monday
 ```
 
-![Nginx Deployment with ConfigMap Volume](images/deployments-nginx-with-configmap-volume.gif)
+![Nginx Deployment with ConfigMap Volume](./images/deployments-nginx-with-configmap-volume.gif)
 
 ## Cleanup
 
