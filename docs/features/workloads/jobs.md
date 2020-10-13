@@ -16,7 +16,7 @@ Go to the tutorial chart repo and run the `job-sample` chart.
 
 Here is the Job definition:
 
-```text
+```yaml
 apiVersion: batch/v1
 kind: Job
 metadata:

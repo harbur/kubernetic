@@ -18,7 +18,6 @@ module.exports = {
         {
           title: 'Generic',
           collapsable: false,
-          sidebarDepth: 0,
           children: [
             '/features/crosssections-features/create',
             '/features/crosssections-features/searchtab',
@@ -31,7 +30,6 @@ module.exports = {
           title: 'Settings',
           path: '/features/settings/',
           collapsable: false,
-          sidebarDepth: 0,
           children: [
             '/features/settings/contexts',
             '/features/settings/addons',
@@ -42,7 +40,6 @@ module.exports = {
         {
           title: 'Infrastructure',
           collapsable: false,
-          sidebarDepth: 0,
           children: [
             '/features/infrastructure/nodes',
             '/features/infrastructure/quotas',
@@ -52,7 +49,6 @@ module.exports = {
         {
           title: 'Workloads',
           collapsable: false,
-          sidebarDepth: 0,
           children: [
             '/features/workloads/pods',
             '/features/workloads/deployments',
@@ -65,7 +61,6 @@ module.exports = {
         {
           title: 'Configuration',
           collapsable: false,
-          sidebarDepth: 0,
           children: [
             '/features/configuration/config',
             '/features/configuration/secrets',
@@ -75,7 +70,6 @@ module.exports = {
         {
           title: 'Networking',
           collapsable: false,
-          sidebarDepth: 0,
           children: [
             '/features/networking/services',
             '/features/networking/ingresses',
@@ -85,7 +79,6 @@ module.exports = {
         {
           title: 'Storage',
           collapsable: false,
-          sidebarDepth: 0,
           children: [
             '/features/storage/volumes',
           ]
@@ -93,7 +86,6 @@ module.exports = {
         {
           title: 'Applications',
           collapsable: false,
-          sidebarDepth: 0,
           children: [
             '/features/applications/charts',
             '/features/applications/releases',
@@ -102,7 +94,6 @@ module.exports = {
         {
           title: 'User Management',
           collapsable: false,
-          sidebarDepth: 0,
           children: [
             '/features/user-management/serviceaccounts',
           ]
@@ -110,7 +101,6 @@ module.exports = {
         {
           title: 'Enterprise',
           collapsable: false,
-          sidebarDepth: 0,
           children: [
             '/features/enterprise/config',
             '/features/enterprise/argocd',
@@ -124,8 +114,7 @@ module.exports = {
         {
           title: 'Workloads',
           path: '/tutorials/workloads/',
-          collapsable: true,
-
+          collapsable: false,
           children: [
             '/tutorials/workloads/pods/',
             '/tutorials/workloads/deployments/',
@@ -137,8 +126,7 @@ module.exports = {
         {
           title: 'Networking',
           path: '/tutorials/networking/',
-          collapsable: true,
-
+          collapsable: false,
           children: [
             '/tutorials/networking/services/',
             '/tutorials/networking/ingresses/',
@@ -147,8 +135,7 @@ module.exports = {
         {
           title: 'Configuration',
           path: '/tutorials/configuration/',
-          collapsable: true,
-
+          collapsable: false,
           children: [
             '/tutorials/configuration/env/',
             '/tutorials/configuration/configmaps/',
@@ -158,8 +145,7 @@ module.exports = {
         {
           title: 'Storage',
           path: '/tutorials/storage/',
-          collapsable: true,
-
+          collapsable: false,
           children: [
             '/tutorials/storage/claims/',
           ]
