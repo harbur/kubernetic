@@ -1,6 +1,8 @@
 # Deployments
 
-?> During this tutorial you'll learn how to manage Deployments on Kubernetes.
+::: tip
+During this tutorial you'll learn how to manage Deployments on Kubernetes.
+:::
 
 * Level: *beginner*
 * Requirements: *none*

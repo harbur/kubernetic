@@ -1,6 +1,8 @@
 # Services
 
-?> During this tutorial you'll learn how to manage Services on Kubernetes.
+::: tip
+During this tutorial you'll learn how to manage Services on Kubernetes.
+:::
 
 * Level: *beginner*
 * Requirements: *none*
@@ -68,7 +70,9 @@ Let's delete previous Service now and instead create a Service of type `NodePort
     * Port: `80`
     * Target Port: `80`
 
-!> In order to create a Service type `LoadBalancer` you need a Kubernetes provided by a cloud-provider, e.g. [GKE](/setup-cluster/google-kubernetes-engine-gke).
+::: warning
+In order to create a Service type `LoadBalancer` you need a Kubernetes provided by a cloud-provider, e.g. [GKE](/setup-cluster/google-kubernetes-engine-gke).
+:::
 
 Let's delete previous Service now and instead create a Service of type `LoadBalancer`. `LoadBalancer` service exposes publicly the service by instructing an external LoadBalancer to redirect traffic to the Service. The Service will receive a public IP which can then be used to receive requests.
 

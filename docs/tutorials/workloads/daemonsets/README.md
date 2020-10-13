@@ -1,6 +1,8 @@
 # Daemonsets
 
-?> During this tutorial you'll learn how to manage Daemonsets on Kubernetes.
+::: tip
+During this tutorial you'll learn how to manage Daemonsets on Kubernetes.
+:::
 
 * Level: *beginner*
 * Requirements: *none*

@@ -2,7 +2,9 @@
 
 In Releases section we manage the Helm Releases.
 
-?> When a chart is installed, a [Release](https://github.com/kubernetes/helm/blob/master/docs/glossary.md#release) is deployed. A single chart may be installed many times into the same cluster, and create many different releases. For example, one can install three PostgreSQL databases by running helm install three times with a different release name.
+::: tip
+When a chart is installed, a [Release](https://github.com/kubernetes/helm/blob/master/docs/glossary.md#release) is deployed. A single chart may be installed many times into the same cluster, and create many different releases. For example, one can install three PostgreSQL databases by running helm install three times with a different release name.
+:::
 
 ### Listing Releases
 

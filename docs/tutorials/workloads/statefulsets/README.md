@@ -1,6 +1,8 @@
 # StatefulSets
 
-?> During this tutorial you'll learn how to manage StatefulSets on Kubernetes.
+::: tip
+During this tutorial you'll learn how to manage StatefulSets on Kubernetes.
+:::
 
 * Level: *beginner*
 * Requirements: *none*

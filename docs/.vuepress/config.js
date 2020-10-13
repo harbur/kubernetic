@@ -130,6 +130,38 @@ module.exports = {
             '/tutorials/workloads/pods/',
             '/tutorials/workloads/deployments/',
             '/tutorials/workloads/statefulsets/',
+            '/tutorials/workloads/daemonsets/',
+            '/tutorials/workloads/jobs/',
+          ]
+        },
+        {
+          title: 'Networking',
+          path: '/tutorials/networking/',
+          collapsable: true,
+
+          children: [
+            '/tutorials/networking/services/',
+            '/tutorials/networking/ingresses/',
+          ]
+        },
+        {
+          title: 'Configuration',
+          path: '/tutorials/configuration/',
+          collapsable: true,
+
+          children: [
+            '/tutorials/configuration/env/',
+            '/tutorials/configuration/configmaps/',
+            '/tutorials/configuration/secrets/',
+          ]
+        },
+        {
+          title: 'Storage',
+          path: '/tutorials/storage/',
+          collapsable: true,
+
+          children: [
+            '/tutorials/storage/claims/',
           ]
         },
       ],

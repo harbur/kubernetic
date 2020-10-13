@@ -1,10 +1,17 @@
+---
+tags:
+ - resourcequotas
+---
+
 # Quotas
 
 When several users or teams share a cluster with a fixed number of nodes, there is a concern that one team could use more than its fair share of resources.
 
 Resource quotas are a tool for administrators to address this concern.
 
-?> A [Resource Quota](https://kubernetes.io/docs/concepts/policy/resource-quotas/), provides constraints that limit aggregate resource consumption per namespace. It can limit the quantity of objects that can be created in a namespace by type, as well as the total amount of compute resources that may be consumed by resources in that project.
+::: tip
+A [Resource Quota](https://kubernetes.io/docs/concepts/policy/resource-quotas/), provides constraints that limit aggregate resource consumption per namespace. It can limit the quantity of objects that can be created in a namespace by type, as well as the total amount of compute resources that may be consumed by resources in that project.
+:::
 
 ## Quotas Tutorial
 

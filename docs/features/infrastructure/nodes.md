@@ -1,6 +1,8 @@
 # Nodes
 
-?> A [Node](https://kubernetes.io/docs/concepts/architecture/nodes/) is a worker machine in Kubernetes. A node may be a VM or physical machine, depending on the cluster. Each node has the services necessary to run Pods and is managed by the master components.
+::: tip
+A [Node](https://kubernetes.io/docs/concepts/architecture/nodes/) is a worker machine in Kubernetes. A node may be a VM or physical machine, depending on the cluster. Each node has the services necessary to run Pods and is managed by the master components.
+:::
 
 ### Listing Nodes
 
@@ -20,6 +22,8 @@ A Node can be \(un\)cordoned using the Cordon button. Once the node is cordoned 
 
 ![Node Details: Cordoned Minikube](../images/cordon-node.png)
 
-!> Make sure to **uncordon** the Node before continuing. A Cordoned node doesn't accept new Pod requests.
+::: danger
+Make sure to **uncordon** the Node before continuing. A Cordoned node doesn't accept new Pod requests.
+:::
 
 

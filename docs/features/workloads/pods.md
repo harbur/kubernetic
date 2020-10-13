@@ -1,6 +1,8 @@
 # Pods
 
-?> [Pods](https://kubernetes.io/docs/concepts/workloads/pods/pod/) are the smallest deployable units of computing that can be created and managed in Kubernetes.
+::: tip
+[Pods](https://kubernetes.io/docs/concepts/workloads/pods/pod/) are the smallest deployable units of computing that can be created and managed in Kubernetes.
+:::
 
 To explain pods we need first to address containers.
 
@@ -22,7 +24,9 @@ Let's start simple and create a pod with one container. We will run an clean Alp
 
 > [Alpine Linux](https://alpinelinux.org/) is a security-oriented, lightweight Linux distribution based on musl libc and busybox.
 
-?> Before continuing make sure your active namespace is **kubernetic-tutorial**
+::: warning
+Before continuing make sure your active namespace is **kubernetic-tutorial**
+:::
 
 Deploy [**kubernetic/pod-hello-world**](https://github.com/harbur/kubernetic-charts/tree/master/charts/pod-hello-world) Chart.
 

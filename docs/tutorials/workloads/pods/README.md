@@ -1,6 +1,8 @@
 # Pods
 
-?> During this tutorial you'll learn how to manage Pods on Kubernetes.
+::: tip
+During this tutorial you'll learn how to manage Pods on Kubernetes.
+:::
 
 * Level: *beginner*
 * Requirements: *none*

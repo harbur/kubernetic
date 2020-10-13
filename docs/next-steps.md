@@ -1,6 +1,6 @@
 # Next Steps
 
-Now that you have [installed Kubernetic] and have finished [setting up your cluster] you should be able to launch Kubernetic and see the Dashoard of your cluster:
+Now that you have finished [setting up your cluster] and have [installed Kubernetic] you should be able to launch Kubernetic and see the Dashoard of your cluster:
 
 ![Dashboard](./features/images/dashboard.png)
 

@@ -1,6 +1,8 @@
 # Env. Variables
 
-?> During this tutorial you'll learn how to manage environment variables on Kubernetes.
+::: tip
+During this tutorial you'll learn how to manage environment variables on Kubernetes.
+:::
 
 * Level: *beginner*
 * Requirements: *none*

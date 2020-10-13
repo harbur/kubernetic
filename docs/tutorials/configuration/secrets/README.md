@@ -1,6 +1,8 @@
 # Secrets
 
-?> During this tutorial you'll learn how to manage Secrets on Kubernetes.
+::: tip
+During this tutorial you'll learn how to manage Secrets on Kubernetes.
+:::
 
 * Level: *beginner*
 * Requirements: *none*

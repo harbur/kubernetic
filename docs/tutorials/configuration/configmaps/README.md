@@ -1,6 +1,8 @@
 # ConfigMaps
 
-?> During this tutorial you'll learn how to manage ConfigMaps on Kubernetes.
+::: tip
+During this tutorial you'll learn how to manage ConfigMaps on Kubernetes.
+:::
 
 * Level: *beginner*
 * Requirements: *none*
@@ -11,7 +13,9 @@
 
 > [ConfigMaps](https://kubernetes.io/docs/concepts/configuration/configmap/) allow you to decouple configuration from container images, so that your applications are easily portable.
 
-!> ConfigMaps do not provide secrecy or encryption. If the data you want to store are confidential, use a Secret rather than a ConfigMap.
+::: warning
+ConfigMaps do not provide secrecy or encryption. If the data you want to store are confidential, use a [Secret](../secrets) rather than a ConfigMap.
+:::
 
 ## Nginx with ConfigMap as Env Variables
 

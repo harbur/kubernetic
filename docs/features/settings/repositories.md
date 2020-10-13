@@ -2,8 +2,6 @@
 
 Kubernetic integrates with Helm as Package management. In this section the Repositories refer to Helm repositories.
 
-?> In order for Repositories screen to be functional you need to install [helm](https://github.com/kubernetes/helm/releases):
-
 Go to screen **Settings** &gt; **Repositories**
 
 ### List Repositories
@@ -14,7 +12,8 @@ You will see the list of Repositories for Helm. By default helm configures **sta
 
 ### Adding Repository
 
-**with Kubernetic**
+:::: tabs
+::: tab with Kubernetic
 
 Let's add a new repository:
 
@@ -22,7 +21,8 @@ Let's add a new repository:
 * Fill URL: [https://harbur.github.io/kubernetic-charts/](https://harbur.github.io/kubernetic-charts/)
 * Click **Add Repository** button
 
-**with helm**
+:::
+::: tab with helm
 
 To add a repository using helm CLI:
 
@@ -30,9 +30,13 @@ To add a repository using helm CLI:
 helm repo add kubernetic https://harbur.github.io/kubernetic-charts/
 ```
 
+:::
+::::
+
 ### Deleting Repository
 
-**with Kubernetic**
+:::: tabs
+::: tab with Kubernetic
 
 Repositories can be deleted from the menu:
 
@@ -42,10 +46,14 @@ A confirmation dialog is shown before deleting the repository:
 
 ![Repository deletion confirmation](../images/repository-delete-confirmation.png)
 
-**with helm**
+:::
+::: tab with helm
 
 To delete a repository using helm CLI:
 
 ```bash
 helm repo remove kubernetic
 ```
+
+:::
+::::

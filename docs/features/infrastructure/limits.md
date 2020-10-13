@@ -1,6 +1,8 @@
 # Limits
 
-?> [Limit Ranges](https://kubernetes.io/docs/tasks/administer-cluster/manage-resources/memory-default-namespace/) helps define boundaries on the memory and cpu that Pods can claim on each namespace. This helps cluster operators manage the resources efficiently.
+::: tip
+[Limit Ranges](https://kubernetes.io/docs/tasks/administer-cluster/manage-resources/memory-default-namespace/) helps define boundaries on the memory and cpu that Pods can claim on each namespace. This helps cluster operators manage the resources efficiently.
+:::
 
 ## Tutorial
 

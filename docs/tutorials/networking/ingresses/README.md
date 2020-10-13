@@ -1,6 +1,8 @@
 # Ingresses
 
-?> During this tutorial you'll learn how to manage Ingresses on Kubernetes.
+::: tip
+During this tutorial you'll learn how to manage Ingresses on Kubernetes.
+:::
 
 * Level: *beginner*
 * Requirements: *none*
@@ -13,7 +15,8 @@
 
 ## Setup Ingress Controller
 
-!> For Ingresses to be functional in your cluster, you first need to have an Ingress Controller running. As a quick example to setup a cluster locally with Ingress Controller you can use [minikube](/setup-cluster/minikube):
+::: warning
+For Ingresses to be functional in your cluster, you first need to have an Ingress Controller running. As a quick example to setup a cluster locally with Ingress Controller you can use [minikube](/setup-cluster/minikube):
 
 ```bash
 # Start minikube
@@ -23,6 +26,8 @@ minikube addons enable ingress
 # annotate IP (In the example seen is "192.168.64.28")
 minikube ip
 ```
+
+:::
 
 ## Simple fanout
 

@@ -1,6 +1,8 @@
 # Jobs
 
-?> During this tutorial you'll learn how to manage Jobs on Kubernetes.
+::: tip
+During this tutorial you'll learn how to manage Jobs on Kubernetes.
+:::
 
 * Level: *beginner*
 * Requirements: *none*

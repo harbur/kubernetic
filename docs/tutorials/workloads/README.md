@@ -1,6 +1,8 @@
 # Workloads
 
-?> During this tutorial series you'll learn how to manage workloads on Kubernetes.
+::: tip
+During this tutorial series you'll learn how to manage workloads on Kubernetes.
+:::
 
 * Level: *beginner*
 * Requirements: *none*
@@ -16,13 +18,15 @@
 
 Choose your Tutorial that you want to begin from the list below:
 
-| Name                                               | Description         | Features                      |
-|----------------------------------------------------|---------------------|-------------------------------|
-| [Pods](tutorials/workloads/pods/)                  | Create Pods         | logs                          |
-| [Deployments](/tutorials/workloads/deployments/)   | Create Deployments  | update version, undo, restart |
-| [StatefulSets](/tutorials/workloads/statefulsets/) | Create StatefulSets | update version                |
-| [DaemonSets](/tutorials/workloads/daemonsets/)     | Create DaemonSets   | -                             |
-| [Jobs](/tutorials/workloads/jobs/)                 | Create Jobs         | -                             |
+| Name                          | Description         | Features                      |
+|-------------------------------|---------------------|-------------------------------|
+| [Pods](pods/)                 | Create Pods         | logs                          |
+| [Deployments](deployments/)   | Create Deployments  | update version, undo, restart |
+| [StatefulSets](statefulsets/) | Create StatefulSets | update version                |
+| [DaemonSets](daemonsets/)     | Create DaemonSets   | -                             |
+| [Jobs](jobs/)                 | Create Jobs         | -                             |
 
 
-?> Each tutorial is independent but it is recommended to follow the tutorials in order of appearance.
+::: tip
+Each tutorial is independent but it is recommended to follow the tutorials in order of appearance.
+:::
