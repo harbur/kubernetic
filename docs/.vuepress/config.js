@@ -1,8 +1,13 @@
 module.exports = {
+  title: "Kubernetic",
   plugins: [
     'vuepress-plugin-element-tabs'
   ],
   themeConfig: {
+    repo: 'harbur/kubernetic',
+    editLinks: true,
+    docsDir: 'docs',
+    editLinkText: 'Help us improve this page!',
     activeHeaderLinks: false,
     nav: [
       { text: 'Getting Started', link: '/' },
