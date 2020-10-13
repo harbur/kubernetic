@@ -1,7 +1,0 @@
-* [Introduction](/tutorials/)
-* [Workloads](/tutorials/workloads/)
-* [Networking](/tutorials/networking/)
-  * [Services](/tutorials/networking/services/)
-  * [Ingresses](/tutorials/networking/ingresses/)
-* [Configuration](/tutorials/configuration/)
-* [Storage](/tutorials/storage/)

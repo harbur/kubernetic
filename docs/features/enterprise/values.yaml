@@ -1,7 +1,0 @@
-kubernetic-backend:
-  config:
-    backlink:
-      defaultInstanceType: "argocd"
-      argoCDNamespace: "my-argocd-operator"
-    log:
-      level: info
