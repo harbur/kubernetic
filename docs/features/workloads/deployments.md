@@ -20,8 +20,6 @@ Deploy [**kubernetic/deployment-nginx**](https://github.com/harbur/kubernetic-ch
 
 Here is the Deployment definition:
 
-{% code-tabs %}
-{% code-tabs-item title="nginx-deployment.yaml" %}
 ```yaml
 apiVersion: extensions/v1beta1
 kind: Deployment
@@ -48,8 +46,6 @@ spec:
             memory: 100Mi
 
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
 
 Now go to the Deployments section. You'll see the `nginx` deployment with the 2 Pods.
 
