@@ -153,7 +153,7 @@ module.exports = {
         },
         {
           title: 'Installation',
-          path: '/installation',
+          path: '/installation/',
           collapsable: false,
           children: [
             '/installation/desktop',
