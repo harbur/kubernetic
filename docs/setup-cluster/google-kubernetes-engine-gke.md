@@ -13,3 +13,7 @@ To start a cluster:
 ```bash
 > gcloud containers create myCluster
 ```
+
+::: tip
+Now you have a working Kubernetes cluster running locally using **GKE** and have proper authentication using **kubectl** to connect to the cluster you can proceed to Kubernetic [Installation](/installation/) guide.
+:::

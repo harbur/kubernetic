@@ -33,10 +33,12 @@ Cluster provisioning takes several minutes. Finally, the last output line should
 ```bash
 > kubectl get svc
 ```
-You should recieve the following output:
+You should receive the following output:
 ```bash
 > NAME             TYPE        CLUSTER-IP   EXTERNAL-IP   PORT(S)   AGE
 svc/kubernetes   ClusterIP   10.100.0.1   <none>        443/TCP   1m
 ```
 
-
+::: tip
+Now you have a working Kubernetes cluster running locally using **EKS** and have proper authentication using **kubectl** to connect to the cluster you can proceed to Kubernetic [Installation](/installation/) guide.
+:::

@@ -6,16 +6,16 @@
 
 Along with minikube, [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/) CLI client is needed. The installation steps cover how to install it.
 
-<!-- tabs:start -->
-
-#### ** Mac (with brew) **
+:::: tabs
+::: tab Mac (with brew)
 
 ```bash
 brew cask install minikube
 brew install kubectl
 ```
 
-#### ** Mac (without brew) **
+:::
+::: tab Mac (without brew)
 
 ```bash
 # minikube
@@ -29,7 +29,9 @@ chmod +x kubectl
 sudo mv kubectl /usr/local/bin/
 ```
 
-#### ** Linux **
+:::
+
+::: tab Linux
 
 ```bash
 # minikube
@@ -43,7 +45,8 @@ chmod +x kubectl
 sudo mv kubectl /usr/local/bin/
 ```
 
-#### ** Windows **
+:::
+::: tab Windows
 
 **minikube**
 
@@ -56,9 +59,10 @@ sudo mv kubectl /usr/local/bin/
 1. Download the [kubectl.exe](https://storage.googleapis.com/kubernetes-release/release/v1.11.0/bin/windows/amd64/kubectl.exe) file
 2. Add it to your PATH
 
-<!-- tabs:end -->
+:::
+::::
 
-?> For more details on the installation process check documentation of [minikube](https://github.com/kubernetes/minikube/) and [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-with-homebrew-on-macos).
+For more details on the installation process check documentation of [minikube](https://github.com/kubernetes/minikube/) and [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-with-homebrew-on-macos).
 
 
 ### Verify Installation
@@ -102,4 +106,6 @@ NAME       STATUS    ROLES     AGE       VERSION
 minikube   Ready     master    22m       v1.10.0
 ```
 
-?> Now you have a working Kubernetes cluster running locally using **minikube** and have proper authentication using **kubectl** to connect to the cluster. You can launch **Kubernetic** to connect to the cluster.
+::: tip
+Now you have a working Kubernetes cluster running locally using **minikube** and have proper authentication using **kubectl** to connect to the cluster you can proceed to Kubernetic [Installation](/installation/) guide.
+:::

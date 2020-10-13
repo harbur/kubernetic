@@ -1,4 +1,7 @@
 module.exports = {
+  plugins: [
+    'vuepress-plugin-element-tabs'
+  ],
   themeConfig: {
     activeHeaderLinks: false,
     nav: [
