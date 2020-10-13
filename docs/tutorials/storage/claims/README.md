@@ -21,7 +21,7 @@ First let's go and create a Claim of `1Gi`. Once the Claim is created it will fi
   * Name: `pvc-test`
   * Capacity Storage: `1Gi`
 
-![PVC Test](images/pvc-test.gif)
+![PVC Test](./images/pvc-test.gif)
 
 !> You need to have a default StorageClass configured in your cluster so that Claims can be provisioned.
 
@@ -43,7 +43,7 @@ lost+found
 Hello
 ```
 
-![Nginx StatefulSet with Claim](images/statefulsets-nginx-with-claim.gif)
+![Nginx StatefulSet with Claim](./images/statefulsets-nginx-with-claim.gif)
 
 ## Cleanup
 

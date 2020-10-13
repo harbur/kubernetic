@@ -28,7 +28,7 @@ Configuration
 
 We'll deploy the image and configure a different `PORT` environment variable, e.g. `9999`. We check the logs and see the instance is listening to the configured port.
 
-![Echo Server Deployment](images/deployments-echo-server.gif)
+![Echo Server Deployment](./images/deployments-echo-server.gif)
 
 ## Cleanup
 

@@ -1,4 +1,4 @@
-# Customizing config values
+# Configuration
 
 There are some values that can be customized in the configuration of the application. 
 

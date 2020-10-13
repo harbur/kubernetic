@@ -21,7 +21,7 @@ A Service connects a set of pre-existing Pods by using the `.spec.selector` fiel
 
 So, first create a Deployment with name `nginx` and image `nginx:alpine` which runs an [nginx](https://www.nginx.com/) web server, and scale up to two instances.
 
-![Nginx Deployment](images/deployments-nginx.gif)
+![Nginx Deployment](./images/deployments-nginx.gif)
 
 ## Nginx ClusterIP Service
 
@@ -41,7 +41,7 @@ We can also go to the `Ports` tab and start port-forwarding to a local port. We 
 
 > `ClusterIP` service type is the most restrictive type of Service, as it is only accessible from within the Cluster.
 
-![Nginx Service ClusterIP](images/services-nginx-clusterip.gif)
+![Nginx Service ClusterIP](./images/services-nginx-clusterip.gif)
 
 ## Nginx NodePort Service
 
@@ -57,7 +57,7 @@ Let's delete previous Service now and instead create a Service of type `NodePort
 
 > `NodePort` service type extends `ClusterIP` type by also sending traffic from the node port to the service Cluster IP.
 
-![Nginx Service NodePort](images/services-nginx-nodeport.gif)
+![Nginx Service NodePort](./images/services-nginx-nodeport.gif)
 
 ## Nginx LoadBalancer Service
 
@@ -76,7 +76,7 @@ Once created, we go to the `Terminal` and try the following command `curl <EXTER
 
 > `LoadBalancer` service type extends `NodePort` type by also instructing an external LoadBalancer to redirect traffic to the respective Service.
 
-![Nginx Service LoadBalancer](images/services-nginx-loadbalancer.gif)
+![Nginx Service LoadBalancer](./images/services-nginx-loadbalancer.gif)
 
 ## Cleanup
 

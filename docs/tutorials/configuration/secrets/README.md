@@ -21,7 +21,7 @@ First let's go and create a Secret with some values.
   * Name: `nginx-secret`
   * Data: [`USERNAME:admin`, `PASSWORD:mypass`]
 
-![Nginx Secret](images/secrets-nginx.gif)
+![Nginx Secret](./images/secrets-nginx.gif)
 
 Now that we have created the Secret, let's create the Nginx instance and configure two environment variables that take their value from the Secret.
 
@@ -39,7 +39,7 @@ USERNAME=admin
 PASSWORD=mypass
 ```
 
-![Nginx Deployment with Secret Envs](images/deployments-nginx-with-secret-envs.gif)
+![Nginx Deployment with Secret Envs](./images/deployments-nginx-with-secret-envs.gif)
 
 ## Nginx with Secret as Volume
 
@@ -62,7 +62,7 @@ admin
 mypass
 ```
 
-![Nginx Deployment with Secret Volume](images/deployments-nginx-with-secret-volume.gif)
+![Nginx Deployment with Secret Volume](./images/deployments-nginx-with-secret-volume.gif)
 
 ## Cleanup
 

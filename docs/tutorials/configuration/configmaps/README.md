@@ -23,7 +23,7 @@ First let's go and create a ConfigMap with some values.
   * Name: `nginx-config`
   * Data: [`COLOR:blue`, `DAY:monday`]
 
-![Nginx ConfigMap](images/configmaps-nginx.gif)
+![Nginx ConfigMap](./images/configmaps-nginx.gif)
 
 Now that we have created the ConfigMap, let's create the Nginx instance and configure two environment variables that take their value from the ConfigMap.
 
@@ -41,7 +41,7 @@ COLOR=blue
 DAY=monday
 ```
 
-![Nginx Deployment with ConfigMap Envs](images/deployments-nginx-with-configmap-envs.gif)
+![Nginx Deployment with ConfigMap Envs](./images/deployments-nginx-with-configmap-envs.gif)
 
 ## Nginx with ConfigMap as Volume
 
@@ -64,7 +64,7 @@ blue
 monday
 ```
 
-![Nginx Deployment with ConfigMap Volume](images/deployments-nginx-with-configmap-volume.gif)
+![Nginx Deployment with ConfigMap Volume](./images/deployments-nginx-with-configmap-volume.gif)
 
 ## Cleanup
 

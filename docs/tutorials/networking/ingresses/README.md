@@ -45,7 +45,7 @@ First we'll create a deployment and service for `coffee`:
     * Port: `80`
     * Target Port: `80`
 
-![Deployment Coffee](images/deployment-coffee.gif)
+![Deployment Coffee](./images/deployment-coffee.gif)
 
 We'll also create a deployment and service for `tea`:
 
@@ -58,7 +58,7 @@ We'll also create a deployment and service for `tea`:
     * Port: `80`
     * Target Port: `80`
 
-![Deployment Tea](images/deployment-tea.gif)
+![Deployment Tea](./images/deployment-tea.gif)
 
 And then we'll create an Ingress rule that implements the above schema:
 
@@ -74,4 +74,4 @@ Once we create the Ingress, we can check the following URLs are functional:
 * `192.168.64.28.xip.io/coffee`: We can check that one of the Pods of `coffee` deployment responds.
 * `192.168.64.28.xip.io/tea`: We can check that one of the Pods of `tea` deployment responds.
 
-![Ingress](images/ingress.gif)
+![Ingress](./images/ingress.gif)
