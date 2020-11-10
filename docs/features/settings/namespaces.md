@@ -22,10 +22,11 @@ You will see there your existing namespaces. Kubernetes creates an active _"defa
 
 ```bash
 > kubectl get namespaces
-NAME                              STATUS        AGE
-default                           Active        9m
-kube-public                       Active        9m
-kube-system                       Active        9m
+NAME              STATUS   AGE
+default           Active   3m44s
+kube-node-lease   Active   3m46s
+kube-public       Active   3m46s
+kube-system       Active   3m47s
 ```
 
 :::
@@ -39,8 +40,9 @@ kube-system                       Active        9m
 Let's create a namespace:
 
 * Fill name: **kubernetic-tutorial**
-* Click **Add Namespace** button
+* Click **Create** button
 
+![Namespaces: Manage namespaces](../images/namespace-creation.png)
 
 :::
 
@@ -59,7 +61,9 @@ kubectl create namespace kubernetic-tutorial
 
 ::: tab with Kubernetic
 
-The active namespace can be seen on the top menu bar, you can switch to the new namespace by selecting the name:
+The active namespace can be seen on the top menu bar, you can switch to the new namespace by selecting the name. The current view will be refreshed to display the resources of the selected namespace.
+
+You can also choose to display **All** namespaces. Table will be updated with a `Namespace` column to display the namespace of each resource.
 
 ![Switching Namespace](../images/switching-namespace.png)
 
