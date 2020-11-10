@@ -26,7 +26,7 @@ module.exports = {
           collapsable: false,
           children: [
             '/features/crosssections-features/create',
-            '/features/crosssections-features/searchtab',
+            '/features/crosssections-features/search',
             '/features/crosssections-features/filterlogs',
             '/features/crosssections-features/terminal',
             '/features/crosssections-features/portforwarding',
