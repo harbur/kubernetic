@@ -5,7 +5,7 @@ Note: Port-forwading is supported only in the desktop version of the application
 **Starting a port-forward**
 
 For each workload object (except CronJobs), and for services you are able to start a port forwarding. This option is available only for the objects that have at least one port within its definition.
-In order to do so, you need to enter in the screen of an object, enter in the "Ports" tab and press the "Port-Forward" button. The port will be randomly chosen. 
+In order to do so, you need to enter in the screen of an object, enter in the "Ports" tab and press the "Start" button under the actions (1). The port will be randomly chosen and displayed under the "Local Port" column (2), port when clicked will be opened on your default browser.
 
 ![](../images/portforwarding.png)
 
