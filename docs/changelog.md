@@ -1,5 +1,10 @@
 # Changelog
 
+## [v3.0.0](https://github.com/harbur/kubernetic/milestone/22?closed=1)
+
+* feature \#112 [Feature request] Configurable display settings
+* dup \#69 Proposal: Additional Column Info
+
 ## [v2.13.0](https://github.com/harbur/kubernetic/milestone/21?closed=1)
 
 * feature \#248 Add volumes configuration on Workloads creation
