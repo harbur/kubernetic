@@ -1,5 +1,10 @@
 # Changelog
 
+## [v3.0.1](https://github.com/harbur/kubernetic/milestone/23?closed=1)
+
+* bug \#264 Deployment list not visible
+* bug \#261 Log Fonts are not monospaced
+
 ## [v3.0.0](https://github.com/harbur/kubernetic/milestone/22?closed=1)
 
 * feature \#112 [Feature request] Configurable display settings
