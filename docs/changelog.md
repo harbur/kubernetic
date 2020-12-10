@@ -1,5 +1,17 @@
 # Changelog
 
+## [v3.1.0](https://github.com/harbur/kubernetic/milestone/24?closed=1)
+
+* feature \#136 [Feature request] Dark Mode
+* feature \#263 Pod Metrics
+* feature \#258 [Feature Request] - "Pods" tab for Nodes
+* feature \#269 Add support for service port-forwarding with named ports
+* feature \#268 [Feature Request] add tooltips to the action buttons
+* bug \#154 Nodes always shown as "Ready" even when they are not
+* bug \#180 [Bug] Some issues with 2.9.1
+* bug \#184 issue version 2.9.1 (2.9.1)
+* bug \#234 Important Features Removed
+
 ## [v3.0.0](https://github.com/harbur/kubernetic/milestone/22?closed=1)
 
 * feature \#112 [Feature request] Configurable display settings
