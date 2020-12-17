@@ -21,7 +21,7 @@
 * CPU and Memory metrics visualization.
 * _Coming soon:_ Debug shell of a workload or service (bring your own image with debug tooling).
 
-**Enterprise edition (on private beta)**
+**Team edition**
 
 * Deployment on-site, with multiple users.
 * Single sign-on integration with authentication and authorization os user & groups.

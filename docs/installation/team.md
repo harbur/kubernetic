@@ -1,6 +1,6 @@
-# Enterprise
+# Kubernetic Team
 
-To install Kubernetic Enterprise, you will need [Helm] and [Kubectl] CLI tools.
+To install Kubernetic Team, you will need [Helm] and [Kubectl] CLI tools.
 
 [Helm]: https://helm.sh/
 [Kubectl]: https://kubernetes.io/docs/tasks/tools/install-kubectl/
@@ -51,22 +51,20 @@ Forwarding from [::1]:5000 -> 80
 
 Continue the setup process on screen.
 
-![](../images/license-activation-screen.png)
+![](../installation/images/license-activation-screen.png)
 
 From this point, if you already have an active license you can insert it and press the "Activate" button. 
 
-In case you do not own an active license press the "Buy license" button and you will be redirected to the [Kubernetic official website](https://www.kubernetic.com/#pricing). Here, press the button "Try Enterprise for Free"
+In case you do not own an active license press the "Buy license" button and you will be redirected to the [Kubernetic official website](https://www.kubernetic.com/#pricing). Here, press the button "Start a 30-day trial"
 
-![](../images/pricing.png)
+![](../installation/images/pricing.png)
 
 
 After this you will be redirected to another page where you should complete a form. 
 
-![](../images/activation-form.png)
+![](../installation/images/activation-form.png)
 
-After completing the form, you should recieve an e-mail with a trial license that will be available for 14 days. Note that the e-mail may not arrive immediately. 
+After completing the form, you should recieve an e-mail with a trial license key that will be available for 30 days. Note that the e-mail may not arrive immediately. 
 
-
-
-
+In order to customize the configuration of the application check [Customization](https://docs.kubernetic.com/features/team/config.html) section.
 

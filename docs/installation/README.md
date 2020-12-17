@@ -2,8 +2,8 @@
 
 Kubernetic comes in two flavours:
 
-* [Desktop]: Installation as a Desktop app for single-user.
-* [Enterprise]: Installation in-cluster as Kubernetes management plane by all users.
+* [Kubernetic Desktop]: Installation as a Desktop app for single-user.
+* [Kubernetic Team]: Installation in-cluster as Kubernetes management plane by all users.
 
-[Desktop]: ./desktop.md
-[Enterprise]: ./enterprise.md
+[Kubernetic Desktop]: ./desktop.md
+[Kubernetic Team]: ./team.md

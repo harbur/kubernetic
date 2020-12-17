@@ -105,12 +105,12 @@ module.exports = {
           ]
         },
         {
-          title: 'Enterprise',
+          title: 'Team',
           collapsable: false,
           children: [
-            '/features/enterprise/config',
-            '/features/enterprise/argocd',
-            '/features/enterprise/tekton',
+            '/features/team/config',
+            '/features/team/argocd',
+            '/features/team/tekton',
           ]
         },
       ],
@@ -181,7 +181,7 @@ module.exports = {
           collapsable: false,
           children: [
             '/installation/desktop',
-            '/installation/enterprise',
+            '/installation/team',
           ]
         },
         'next-steps',

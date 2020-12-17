@@ -1,4 +1,4 @@
-# Desktop
+# Kubernetic Desktop
 
 ## Download the Application
 
