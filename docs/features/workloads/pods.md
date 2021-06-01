@@ -16,7 +16,7 @@ In this Tutorial you'll learn how to run different types of Pods.
 
 #### Requirements
 
-* Add **kubernetic** Repository as described [here](https://docs.kubernetic.com/settings/repositories#adding-repository) before continuing
+* Add **kubernetic** Repository as described [here](https://docs.kubernetic.com/features/settings/repositories.html) before continuing
 
 ### Short Lived Single-Container Pod
 
