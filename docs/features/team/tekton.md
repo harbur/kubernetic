@@ -6,7 +6,7 @@ Tekton is a Kubernetes extension that installs and runs on your Kubernetes clust
 
 **Setting up Tekton**
 
-In order to set up TektonCD to work with Kubernetic you, firstly, need to install the Operation Lifecycle Manager (OLM). See [Installing OLM](https://docs.kubernetic.com/features/settings/addons.html#installing-the-operator-lifecycle-manager-olm).
+In order to set up TektonCD to work with Kubernetic you, firstly, need to install the Operation Lifecycle Manager (OLM). See [Installing OLM](/features/settings/addons.html#installing-the-operator-lifecycle-manager-olm).
 
 After you have the OLM installed, go to the "Available Operators" tab, select "tekton-operator" and press "Install"
 

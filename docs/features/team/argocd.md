@@ -7,7 +7,7 @@ Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes. It fol
 
 **Setting up ArgoCD**
 
-In order to set up ArgoCD to work with Kubernetic you, firstly, need to install the Operation Lifecycle Manager (OLM). See [Installing OLM](https://docs.kubernetic.com/features/settings/addons.html#installing-the-operator-lifecycle-manager-olm).
+In order to set up ArgoCD to work with Kubernetic you, firstly, need to install the Operation Lifecycle Manager (OLM). See [Installing OLM](/features/settings/addons.html#installing-the-operator-lifecycle-manager-olm).
 
 After you have the OLM installed, go to the "Available Operators" tab, select "argocd-operator" and press "Install"
 
