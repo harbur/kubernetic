@@ -1,5 +1,15 @@
 # Changelog
 
+## [v3.2.0](https://github.com/harbur/kubernetic/milestone/25?closed=1)
+
+* fix \#309 Kubernetic not working with Control Plane of 1.20.x
+* fix \#327 No CRD displayed in k8s 1.22.2
+* feature \#273 [Feature Request] text size adjustments for logs
+* dup \#76 [Feature] Change Font Size
+* dup \#278 Support adjustable font size
+* dup \#293 On update older things disappears
+* dup \#324 Pods disappearing from list
+
 ## [v3.1.0](https://github.com/harbur/kubernetic/milestone/24?closed=1)
 
 * feature \#136 [Feature request] Dark Mode
