@@ -9,6 +9,7 @@
 * dup \#278 Support adjustable font size
 * dup \#293 On update older things disappears
 * dup \#324 Pods disappearing from list
+* dup \#325 Kubernetic Issues following EKS 1.21 (K8S 1.21) upgrade
 
 ## [v3.1.0](https://github.com/harbur/kubernetic/milestone/24?closed=1)
 
