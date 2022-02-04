@@ -4,6 +4,7 @@
 
 * fix \#309 Kubernetic not working with Control Plane of 1.20.x
 * fix \#327 No CRD displayed in k8s 1.22.2
+* fix \#331 Start of Linux Version Has Connectivity Issue
 * feature \#273 [Feature Request] text size adjustments for logs
 * dup \#76 [Feature] Change Font Size
 * dup \#278 Support adjustable font size
