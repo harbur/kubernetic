@@ -2,10 +2,10 @@
   "name": "kubernetic",
   "version": "1.0.0",
   "description": "[Kubernetic](https://www.kubernetic.com): Supercharge your Kubernetes clusters.",
-  "dependencies": {
-    "@vuepress/plugin-google-analytics": "^1.6.0",
-    "vuepress": "^1.6.0",
-    "vuepress-plugin-element-tabs": "^0.2.8"
+  "devDependencies": {
+    "@vuepress/plugin-google-analytics": "^1.9.7",
+    "vuepress": "1.9.7",
+    "vuepress-plugin-element-tabs-less": "^0.2.11"
   },
   "scripts": {
     "build": "vuepress build docs",

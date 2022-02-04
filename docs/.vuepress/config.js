@@ -1,7 +1,7 @@
 module.exports = {
   title: "Kubernetic",
   plugins: [
-    'vuepress-plugin-element-tabs',
+    'vuepress-plugin-element-tabs-less',
     ['@vuepress/plugin-google-analytics', { ga: 'UA-11756963-5' }],
   ],
   themeConfig: {
