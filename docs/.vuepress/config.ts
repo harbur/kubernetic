@@ -1,8 +1,8 @@
 module.exports = {
   title: "Kubernetic",
   plugins: [
-    'vuepress-plugin-element-tabs-less',
-    ['@vuepress/plugin-google-analytics', { ga: 'UA-11756963-5' }],
+    '@snippetors/vuepress-plugin-tabs',
+    ['@vuepress/plugin-google-analytics', { id: 'UA-11756963-5' }],
   ],
   themeConfig: {
     repo: 'harbur/kubernetic',
@@ -10,7 +10,7 @@ module.exports = {
     docsDir: 'docs',
     editLinkText: 'Help us improve this page!',
     activeHeaderLinks: false,
-    nav: [
+    navbar: [
       { text: 'Getting Started', link: '/' },
       { text: 'Tutorials', link: '/tutorials/' },
       { text: 'Features', link: '/features/' }
@@ -18,11 +18,14 @@ module.exports = {
     sidebarDepth: 0,
     sidebar: {
 
-      //////// FEATURES SIDEBAR ////////
+      // //////// FEATURES SIDEBAR ////////
       '/features/': [
-        '',
         {
-          title: 'Generic',
+          text: "Features",
+          link: "/features/"
+        },
+        {
+          text: 'Generic',
           collapsable: false,
           children: [
             '/features/crosssections-features/create',
@@ -33,7 +36,7 @@ module.exports = {
           ]
         },
         {
-          title: 'Settings',
+          text: 'Settings',
           path: '/features/settings/',
           collapsable: false,
           children: [
@@ -44,7 +47,7 @@ module.exports = {
           ]
         },
         {
-          title: 'Infrastructure',
+          text: 'Infrastructure',
           collapsable: false,
           children: [
             '/features/infrastructure/nodes',
@@ -53,7 +56,7 @@ module.exports = {
           ]
         },
         {
-          title: 'Workloads',
+          text: 'Workloads',
           collapsable: false,
           children: [
             '/features/workloads/pods',
@@ -65,7 +68,7 @@ module.exports = {
           ]
         },
         {
-          title: 'Configuration',
+          text: 'Configuration',
           collapsable: false,
           children: [
             '/features/configuration/config',
@@ -74,7 +77,7 @@ module.exports = {
           ]
         },
         {
-          title: 'Networking',
+          text: 'Networking',
           collapsable: false,
           children: [
             '/features/networking/services',
@@ -83,14 +86,14 @@ module.exports = {
           ]
         },
         {
-          title: 'Storage',
+          text: 'Storage',
           collapsable: false,
           children: [
             '/features/storage/volumes',
           ]
         },
         {
-          title: 'Applications',
+          text: 'Applications',
           collapsable: false,
           children: [
             '/features/applications/charts',
@@ -98,14 +101,14 @@ module.exports = {
           ]
         },
         {
-          title: 'User Management',
+          text: 'User Management',
           collapsable: false,
           children: [
             '/features/user-management/serviceaccounts',
           ]
         },
         {
-          title: 'Team',
+          text: 'Team',
           collapsable: false,
           children: [
             '/features/team/config',
@@ -116,10 +119,13 @@ module.exports = {
       ],
       //////// TUTORIALS SIDEBAR ////////
       '/tutorials/': [
-        '',
         {
-          title: 'Workloads',
-          path: '/tutorials/workloads/',
+          text: "Tutorials",
+          link: "/tutorials/"
+        },
+        {
+          text: 'Workloads',
+          link: '/tutorials/workloads/',
           collapsable: false,
           children: [
             '/tutorials/workloads/pods/',
@@ -130,8 +136,8 @@ module.exports = {
           ]
         },
         {
-          title: 'Networking',
-          path: '/tutorials/networking/',
+          text: 'Networking',
+          link: '/tutorials/networking/',
           collapsable: false,
           children: [
             '/tutorials/networking/services/',
@@ -139,8 +145,8 @@ module.exports = {
           ]
         },
         {
-          title: 'Configuration',
-          path: '/tutorials/configuration/',
+          text: 'Configuration',
+          link: '/tutorials/configuration/',
           collapsable: false,
           children: [
             '/tutorials/configuration/env/',
@@ -149,8 +155,8 @@ module.exports = {
           ]
         },
         {
-          title: 'Storage',
-          path: '/tutorials/storage/',
+          text: 'Storage',
+          link: '/tutorials/storage/',
           collapsable: false,
           children: [
             '/tutorials/storage/claims/',
@@ -160,10 +166,13 @@ module.exports = {
 
       //////// BASE SIDEBAR ////////
       '/': [
-        '',
         {
-          title: 'Setup Cluster',
-          path: '/setup-cluster/',
+          text: "Getting Started",
+          link: "/"
+        },
+        {
+          text: 'Setup Cluster',
+          link: '/setup-cluster/',
           collapsable: false,
           children: [
             '/setup-cluster/minikube',
@@ -176,16 +185,23 @@ module.exports = {
           ]
         },
         {
-          title: 'Installation',
-          path: '/installation/',
+          text: 'Installation',
+          link: '/installation/',
           collapsable: false,
           children: [
             '/installation/desktop',
             '/installation/team',
           ]
         },
-        'next-steps',
-        'changelog',
+        {
+          text: "Next Steps",
+          link: "/next-steps"
+        },
+        {
+          text: "Changelog",
+          link: "/changelog"
+        }
+
       ],
     }
   }
