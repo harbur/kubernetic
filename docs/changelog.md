@@ -4,6 +4,7 @@
 
 * fix \#320 Issue with editing ingress and deployment on 1.15 and 1.21 bug
 * fix \#321 getting credentials: exec: executable aws-iam-authenticator not found
+* feature added license expiration check
 
 ## [v3.2.0](https://github.com/harbur/kubernetic/milestone/25?closed=1)
 
