@@ -1,5 +1,10 @@
 # Changelog
 
+## [v3.3.0](https://github.com/harbur/kubernetic/milestone/26?closed=1)
+
+* fix \#320 Issue with editing ingress and deployment on 1.15 and 1.21 bug
+* fix \#321 getting credentials: exec: executable aws-iam-authenticator not found
+
 ## [v3.2.0](https://github.com/harbur/kubernetic/milestone/25?closed=1)
 
 * fix \#309 Kubernetic not working with Control Plane of 1.20.x
