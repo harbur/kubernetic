@@ -1,5 +1,10 @@
 # Changelog
 
+## [v3.4.0](https://github.com/harbur/kubernetic/milestone/27?closed=1)
+
+* feature \#344 Migrate Ingress creation to use networking/v1 API
+* fix \#327 No CRD displayed in k8s 1.22.2
+
 ## [v3.3.0](https://github.com/harbur/kubernetic/milestone/26?closed=1)
 
 * fix \#320 Issue with editing ingress and deployment on 1.15 and 1.21 bug
