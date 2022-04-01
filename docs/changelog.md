@@ -1,5 +1,9 @@
 # Changelog
 
+## v3.4.1 (windows only)
+
+* fix \#347 3.4.0 release on windows not displaying any cluster resources
+
 ## [v3.4.0](https://github.com/harbur/kubernetic/milestone/27?closed=1)
 
 * feature \#344 Migrate Ingress creation to use networking/v1 API
