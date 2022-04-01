@@ -1,6 +1,6 @@
 # Changelog
 
-## v3.4.1 (windows only)
+## [v3.4.1](https://github.com/harbur/kubernetic/milestone/28?closed=1) (windows only)
 
 * fix \#347 3.4.0 release on windows not displaying any cluster resources
 
