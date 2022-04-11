@@ -1,5 +1,10 @@
 # Changelog
 
+## v4.0.1
+
+* fix scrollbar theme on linux and windows for dark mode
+* use `mod+a` to select all resources instead of `cmd+a` which only works for Mac.
+
 ## [v4.0.0](https://github.com/harbur/kubernetic/milestone/29?closed=1)
 
 * feat \#348 Add keyboard navigation
