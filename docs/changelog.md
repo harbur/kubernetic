@@ -1,5 +1,12 @@
 # Changelog
 
+## [v4.0.0](https://github.com/harbur/kubernetic/milestone/29?closed=1)
+
+* feat \#348 Add keyboard navigation
+* fix \#169 Unable to copy/paste into pod terminal
+* fix \#305 Find does not show text in search box
+* dup \#295 Add the ability to copy text from the terminal window
+
 ## [v3.4.1](https://github.com/harbur/kubernetic/milestone/28?closed=1) (windows only)
 
 * fix \#347 3.4.0 release on windows not displaying any cluster resources
