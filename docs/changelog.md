@@ -1,5 +1,12 @@
 # Changelog
 
+## [v4.1.0](https://github.com/harbur/kubernetic/milestone/30?closed=1)
+
+* feat \#356 Add translucent side menu on mac desktop
+* feat \#355 Add context menu (right-click menu) on resources
+* feat \#354 Improve Context and Namespace navigation
+* feat \#353 Add more keyboard shortcuts for navigation
+
 ## v4.0.1
 
 * fix scrollbar theme on linux and windows for dark mode
