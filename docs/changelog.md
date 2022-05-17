@@ -1,5 +1,9 @@
 # Changelog
 
+## [v4.1.1](https://github.com/harbur/kubernetic/milestone/31?closed=1) (windows only)
+
+* fix \#357 unable to resize the application (running on windows)
+
 ## [v4.1.0](https://github.com/harbur/kubernetic/milestone/30?closed=1)
 
 * feat \#356 Add translucent side menu on mac desktop
