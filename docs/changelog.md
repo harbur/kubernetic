@@ -1,5 +1,14 @@
 # Changelog
 
+## [v4.2.0](https://github.com/harbur/kubernetic/milestone/32?closed=1)
+
+* fix \#80 Not comfortable logs
+* fix \#297 Pagination dropdown sometimes is blank
+* fix \#22 Events not ordered by time by default.
+* fix \#265 Incorrect events ordering
+* fix \#285 Strange sort by age
+* fix \#360 Sorting by time/ages sorts lexigraphically
+
 ## [v4.1.1](https://github.com/harbur/kubernetic/milestone/31?closed=1) (windows only)
 
 * fix \#357 unable to resize the application (running on windows)
