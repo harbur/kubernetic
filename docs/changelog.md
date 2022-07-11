@@ -1,5 +1,14 @@
 # Changelog
 
+## [v4.3.0](https://github.com/harbur/kubernetic/milestone/33?closed=1)
+
+* feat \#345 Add FluxCD support
+* feat \#364 Context Menu on Logs
+* feat \#350 [Feature Request] Pinning Namespaces
+* feat \#303 [Feature Request] Bring back (improved) collapsible navigation
+* feat \#304 [Feature Request] Pinned/Favorited Resource Types
+* fix \#362 Kubernetic using deprecated APIs
+
 ## [v4.2.0](https://github.com/harbur/kubernetic/milestone/32?closed=1)
 
 * fix \#80 Not comfortable logs
