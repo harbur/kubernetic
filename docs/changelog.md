@@ -1,5 +1,12 @@
 # Changelog
 
+
+## [v4.4.0](https://github.com/harbur/kubernetic/milestone/34?closed=1)
+
+* feat \#359 Bring back "quick action" buttons for deployments, etc.
+* feat \#302 [Feature Request] Hide/Show Managed Fields
+* fix \#367 [Bug] Pinned Resources extends to preferences/context/etc
+
 ## [v4.3.0](https://github.com/harbur/kubernetic/milestone/33?closed=1)
 
 * feat \#345 Add FluxCD support
