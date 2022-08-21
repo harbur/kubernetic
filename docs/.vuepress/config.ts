@@ -8,6 +8,7 @@ module.exports = {
     repo: 'harbur/kubernetic',
     editLinks: true,
     docsDir: 'docs',
+    docsBranch: 'master',
     editLinkText: 'Help us improve this page!',
     activeHeaderLinks: false,
     navbar: [
