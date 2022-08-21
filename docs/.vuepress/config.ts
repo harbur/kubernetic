@@ -196,11 +196,11 @@ module.exports = {
         },
         {
           text: "Next Steps",
-          link: "/next-steps"
+          link: "/next-steps.html"
         },
         {
           text: "Changelog",
-          link: "/changelog"
+          link: "/changelog.html"
         }
 
       ],
