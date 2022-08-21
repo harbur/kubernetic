@@ -11,5 +11,5 @@ There are various ways to get a Kubernetes cluster up and running, below is a li
 Choose one way and follow the guide below to prepare the environment. Once the environment is ready you should have a kubernetes cluster up and running and the credentials prepared in order to connect with the cluster.
 
 ::: tip
-If you are unsure and want to try out without a cloud provider you can start out with [Minikube](/setup-cluster/minikube).
+If you are unsure and want to try out without a cloud provider you can start out with [Minikube](/setup-cluster/minikube.md).
 :::
