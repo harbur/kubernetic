@@ -1,7 +1,7 @@
 module.exports = {
   title: "Kubernetic",
   head: [
-    ['script', { defer: true, 'data-domain': 'docs.kubernetic.com', src: 'https://plausible.apps.harbur.io/js/script.js' }]
+    ['script', { defer: true, 'data-domain': 'kubernetic.com', src: 'https://plausible.apps.harbur.io/js/script.js' }]
   ],
   plugins: [
     '@snippetors/vuepress-plugin-tabs',
