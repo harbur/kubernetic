@@ -3,6 +3,13 @@ module.exports = {
   head: [
     ['script', { defer: true, 'data-domain': 'kubernetic.com', src: 'https://plausible.apps.harbur.io/js/script.js' }]
   ],
+  extendsPage: (page) => {
+    page.frontmatter.head = page.frontmatter.head || []
+    page.frontmatter.head.push([
+      'link',
+      { rel: 'canonical', href: `https://docs.kubernetic.com${page.path}` }
+    ])
+  },
   plugins: [
     '@snippetors/vuepress-plugin-tabs',
     ['@vuepress/plugin-google-analytics', { id: 'UA-11756963-5' }],
