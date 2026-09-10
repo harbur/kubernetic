@@ -1,0 +1,10 @@
+{
+  "title": "Workloads",
+  "pages": [
+    "pods",
+    "deployments",
+    "statefulsets",
+    "daemonsets",
+    "jobs"
+  ]
+}

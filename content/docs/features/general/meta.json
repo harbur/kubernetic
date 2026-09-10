@@ -1,0 +1,10 @@
+{
+  "title": "General",
+  "pages": [
+    "create",
+    "search",
+    "filterlogs",
+    "terminal",
+    "portforwarding"
+  ]
+}

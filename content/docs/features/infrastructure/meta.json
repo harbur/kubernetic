@@ -1,0 +1,8 @@
+{
+  "title": "Infrastructure",
+  "pages": [
+    "nodes",
+    "quotas",
+    "limits"
+  ]
+}

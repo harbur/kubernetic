@@ -1,0 +1,12 @@
+{
+  "title": "Setup Cluster",
+  "pages": [
+    "minikube",
+    "docker-for-desktop",
+    "kind",
+    "k3d",
+    "google-kubernetes-engine-gke",
+    "azure-kubernetes-engine-aks",
+    "elastic-kubernetes-service-eks"
+  ]
+}

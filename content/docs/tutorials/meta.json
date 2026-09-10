@@ -1,0 +1,10 @@
+{
+  "title": "Tutorials",
+  "pages": [
+    "workloads",
+    "networking",
+    "configuration",
+    "storage",
+    "clusters"
+  ]
+}

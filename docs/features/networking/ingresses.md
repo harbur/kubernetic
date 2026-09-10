@@ -1,3 +1,0 @@
-# Ingresses
-
-Coming Soon...

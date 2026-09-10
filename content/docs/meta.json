@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "---Getting Started---",
+    "index",
+    "setup-cluster",
+    "installation",
+    "next-steps",
+    "---Learning Kubernetes---",
+    "tutorials",
+    "---Using Kubernetic---",
+    "features",
+    "---Updates---",
+    "changelog"
+  ]
+}

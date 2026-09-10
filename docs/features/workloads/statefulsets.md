@@ -1,4 +1,0 @@
-# StatefulSets
-
-Coming Soon...
-

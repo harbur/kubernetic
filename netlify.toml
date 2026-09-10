@@ -1,8 +1,7 @@
+# Interim: the site still deploys on Netlify until the kubernetic-apps (Flux)
+# manifest for the ghcr.io image is in place. Netlify runs the Next.js app
+# through its Next.js runtime; the 308s for old /page.html URLs live in
+# next.config.mjs.
 [build]
-  command = "yarn build"
-  publish = "docs/.vuepress/dist"
-
-# Keep internal links as VuePress writes them (/page.html), matching the
-# canonical URLs. Netlify's pretty URLs rewrote them to /page.
-[build.processing.html]
-  pretty_urls = false
+  command = "bun run build"
+  publish = ".next"

@@ -1,0 +1,8 @@
+{
+  "title": "Configuration",
+  "pages": [
+    "config",
+    "secrets",
+    "autoscalers"
+  ]
+}

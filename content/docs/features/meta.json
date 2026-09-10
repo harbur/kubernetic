@@ -1,0 +1,15 @@
+{
+  "title": "Features",
+  "pages": [
+    "general",
+    "settings",
+    "infrastructure",
+    "workloads",
+    "configuration",
+    "networking",
+    "storage",
+    "applications",
+    "user-management",
+    "team"
+  ]
+}

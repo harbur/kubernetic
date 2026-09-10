@@ -1,0 +1,8 @@
+{
+  "title": "Team",
+  "pages": [
+    "config",
+    "argocd",
+    "tekton"
+  ]
+}

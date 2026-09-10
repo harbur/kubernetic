@@ -1,0 +1,9 @@
+{
+  "title": "Settings",
+  "pages": [
+    "contexts",
+    "addons",
+    "namespaces",
+    "repositories"
+  ]
+}

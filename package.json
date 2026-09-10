@@ -1,25 +1,38 @@
 {
-  "name": "kubernetic",
-  "version": "1.0.0",
+  "name": "kubernetic-docs",
+  "version": "0.0.0",
+  "private": true,
   "description": "[Kubernetic](https://www.kubernetic.com): Supercharge your Kubernetes clusters.",
-  "devDependencies": {
-    "@snippetors/vuepress-plugin-tabs": "^1.1.6",
-    "@vuepress/plugin-google-analytics": "2.0.0-beta.35",
-    "vuepress": "^2.0.0-beta.35"
-  },
-  "scripts": {
-    "build": "vuepress build docs && node scripts/sitemap.js",
-    "start": "vuepress dev docs"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/harbur/kubernetic.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/harbur/kubernetic/issues"
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next start",
+    "types:check": "fumadocs-mdx && next typegen && tsc --noEmit",
+    "postinstall": "fumadocs-mdx"
   },
-  "homepage": "https://github.com/harbur/kubernetic#readme"
+  "dependencies": {
+    "@plausible-analytics/tracker": "^0.4.4",
+    "fumadocs-core": "16.15.1",
+    "fumadocs-mdx": "15.3.1",
+    "fumadocs-ui": "16.15.1",
+    "lucide-react": "^1.0.0",
+    "next": "16.3.3",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.0",
+    "@types/mdx": "^2.0.13",
+    "@types/node": "^26.0.0",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.3.0",
+    "typescript": "^7.0.0",
+    "vite": "^8.0.0"
+  }
 }
