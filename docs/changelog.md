@@ -1,3 +1,7 @@
+---
+description: "Release notes for every Kubernetic version: new features, fixes and improvements."
+---
+
 # Changelog
 
 

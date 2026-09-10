@@ -8,7 +8,7 @@
     "vuepress": "^2.0.0-beta.35"
   },
   "scripts": {
-    "build": "vuepress build docs",
+    "build": "vuepress build docs && node scripts/sitemap.js",
     "start": "vuepress dev docs"
   },
   "repository": {

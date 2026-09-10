@@ -1,3 +1,7 @@
+---
+description: "Kubernetic is a desktop and in-cluster UI for Kubernetes: manage multiple clusters, Helm charts, logs, port forwarding and terminals from one place."
+---
+
 # Getting Started
 
 [Kubernetic](https://www.kubernetic.com): Supercharge your clusters.

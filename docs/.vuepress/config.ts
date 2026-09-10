@@ -1,3 +1,39 @@
+function prose(markdown) {
+  return markdown
+    .replace(/^---[\s\S]*?---/, '')        // frontmatter
+    .replace(/```[\s\S]*?```/g, '')        // code blocks
+    .replace(/^:::.*$/gm, '')               // container markers
+    .replace(/^\s*#.*$/gm, '')             // headings
+    .replace(/!\[[^\]]*\]\([^)]*\)/g, '')  // images
+    .replace(/<[^>]+>/g, '')                // html
+}
+
+function isPlaceholder(page) {
+  if (page.path.startsWith('/tutorials/clusters/')) return true
+  const text = prose(page.content).trim()
+  return text.split(/\s+/).filter(Boolean).length < 10 || /^coming soon/i.test(text)
+}
+
+// First real paragraph of the page, as plain text, for the meta description.
+// Double quotes become single: this VuePress version does not escape them
+// inside the attribute.
+function firstParagraph(markdown) {
+  const paragraph = prose(markdown)
+    .split(/\n\s*\n/)
+    .map((p) => p.trim())
+    .filter((p) => !/^([-*]|\d+\.) /.test(p) && !/^\[[^\]]+\]: /.test(p))
+    .map((p) => p
+      .replace(/\[([^\]]*)\](\([^)]*\)|\[[^\]]*\])?/g, '$1')
+      .replace(/\\(.)/g, '$1')
+      .replace(/[*_`>]/g, '')
+      .replace(/"/g, "'")
+      .replace(/\s+/g, ' ')
+      .trim())
+    .find((p) => p.split(' ').length >= 6)
+  if (!paragraph) return ''
+  return paragraph.length > 160 ? paragraph.slice(0, 157).replace(/\s+\S*$/, '') + '...' : paragraph
+}
+
 module.exports = {
   title: "Kubernetic",
   head: [
@@ -9,6 +45,17 @@ module.exports = {
       'link',
       { rel: 'canonical', href: `https://docs.kubernetic.com${page.path}` }
     ])
+
+    // Placeholder pages ("Coming Soon...", empty section indexes) and the
+    // unfinished clusters tutorials are kept out of search. The sitemap
+    // script skips any page carrying this tag.
+    if (isPlaceholder(page)) {
+      page.frontmatter.head.push(['meta', { name: 'robots', content: 'noindex' }])
+    }
+
+    if (!page.frontmatter.description) {
+      page.frontmatter.description = firstParagraph(page.content)
+    }
   },
   plugins: [
     '@snippetors/vuepress-plugin-tabs',
