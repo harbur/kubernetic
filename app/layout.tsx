@@ -38,7 +38,7 @@ export default function Layout({ children }: LayoutProps<'/'>) {
       </head>
       <body className="flex flex-col min-h-screen">
         <PlausibleProvider>
-          <RootProvider>
+          <RootProvider search={{ options: { type: 'static' } }}>
             <DocsLayout tree={source.pageTree} {...baseOptions()}>
               {children}
             </DocsLayout>

@@ -1,7 +1,13 @@
-# Interim: the site still deploys on Netlify until the kubernetic-apps (Flux)
-# manifest for the ghcr.io image is in place. Netlify runs the Next.js app
-# through its Next.js runtime; the 308s for old /page.html URLs live in
-# next.config.mjs.
+# Interim: the site deploys on Netlify as a static export until the
+# kubernetic-apps (Flux) manifest for the ghcr.io image is in place.
+# Pages are written as /page.html, so old VuePress URLs keep resolving and
+# Netlify serves /page from the same file.
 [build]
-  command = "bun run build"
-  publish = ".next"
+  command = "NEXT_OUTPUT=export bun run build"
+  publish = "out"
+
+# "Generic" features moved from crosssections-features to general.
+[[redirects]]
+  from = "/features/crosssections-features/*"
+  to = "/features/general/:splat"
+  status = 301

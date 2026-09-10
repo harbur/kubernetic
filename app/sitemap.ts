@@ -2,6 +2,8 @@ import type { MetadataRoute } from 'next';
 import { source } from '@/lib/source';
 import { isPlaceholder, siteUrl } from '@/lib/seo';
 
+export const dynamic = 'force-static';
+
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const pages = await Promise.all(
     source.getPages().map(async (page) => ((await isPlaceholder(page)) ? [] : [page])),
