@@ -1,0 +1,17 @@
+{
+  "last_audited": "2026-09-11",
+  "skill_commit": "ec815081a2fe7eeb1e8377978617b6cf5eadccf7",
+  "proposed": [
+    {
+      "gap": "card-href-not-relative-to-section",
+      "pr": null,
+      "status": "open",
+      "date": "2026-09-11"
+    }
+  ],
+  "open_gaps": [
+    "leaf-page-anatomy: none of the 56 non-index leaf pages under content/docs/ have a '## Considerations'/'## Important Notes', a '## Best Practices' section, or a closing cross-link, where skills/docs-writing/SKILL.md's Page anatomy section describes these as the standard closing shape for every leaf page. This is sitewide (pre-existing, ~56 files) and requires authoring real per-page content (a judgment call on what caveats/best-practices/cross-links belong on each page), not a mechanical fix - flagging for a future dedicated effort rather than attempting a partial pass.",
+    "netlify-toml-present: a netlify.toml exists at the repo root alongside a working .github/workflows/ci.yml that already builds and ships this app via GitHub Actions -> GHCR -> (eventually) Flux, matching skills/infra-deploy/SKILL.md's CI/CD convention exactly (single workflow, test job the image job needs:, ref-gated image build). Not flagged as a gap needing a fix: the file's own comment states this is a deliberate, acknowledged interim state (\"deploys on Netlify as a static export until the kubernetic-apps (Flux) manifest for the ghcr.io image is in place\"), not a stray leftover - noting it here only so a future audit doesn't waste time re-investigating it, and so it can be removed once the Flux manifest lands."
+  ],
+  "clean": false
+}
