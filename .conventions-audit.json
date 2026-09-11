@@ -4,7 +4,7 @@
   "proposed": [
     {
       "gap": "card-href-not-relative-to-section",
-      "pr": null,
+      "pr": 396,
       "status": "open",
       "date": "2026-09-11"
     }
