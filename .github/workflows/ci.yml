@@ -34,7 +34,7 @@ jobs:
         run: bun run build
 
       - name: Upload build output
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: out
           path: out
@@ -57,7 +57,7 @@ jobs:
         run: bun install --frozen-lockfile
 
       - name: Download build output
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v7
         with:
           name: out
           path: out
