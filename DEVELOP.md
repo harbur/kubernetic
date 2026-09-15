@@ -30,12 +30,13 @@ Open http://localhost:3000.
 
 ## Deployment
 
-GitHub Actions runs a type check and build on every push and PR. Pushes to
-`main` and `v*` tags also build a container image and push it to
-`ghcr.io/harbur/kubernetic`, which Flux deploys from the `kubernetic-apps`
-repository.
+The site is a static export (no server code), so it deploys straight to
+[Cloudflare Workers static assets] — no container, no Flux. GitHub Actions
+runs a type check and build on every push and PR; pushes to `main` also
+deploy the build to https://docs.kubernetic.com/ via `wrangler deploy` (see
+`wrangler.jsonc`). PRs are built and type-checked but not previewed.
 
-Until that manifest is in place, [Netlify] keeps deploying `main` to
-https://docs.kubernetic.com/ and PRs as previews (see `netlify.toml`).
+VuePress-era URLs and the `crosssections-features` → `general` rename are
+handled by `public/_redirects`, read by Cloudflare at deploy time.
 
-[Netlify]: https://www.netlify.com/
+[Cloudflare Workers static assets]: https://developers.cloudflare.com/workers/static-assets/

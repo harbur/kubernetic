@@ -3,16 +3,11 @@ name: CI
 on:
   push:
     branches: ['**']
-    tags: ['v*']
   pull_request:
 
-env:
-  REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository }}
-
 jobs:
-  test:
-    name: Test
+  build:
+    name: Build
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -38,47 +33,37 @@ jobs:
       - name: Build
         run: bun run build
 
-  image:
-    name: Build image
-    needs: test
-    if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || startsWith(github.ref, 'refs/tags/v'))
-    runs-on: ubuntu-24.04-arm
-    permissions:
-      contents: read
-      packages: write
+      - name: Upload build output
+        uses: actions/upload-artifact@v4
+        with:
+          name: out
+          path: out
+          include-hidden-files: true
+
+  deploy:
+    name: Deploy
+    needs: build
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    concurrency: production
     steps:
       - name: Checkout repository
         uses: actions/checkout@v7
+
+      - name: Install Bun
+        uses: oven-sh/setup-bun@v2
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Download build output
+        uses: actions/download-artifact@v4
         with:
-          fetch-depth: 0
+          name: out
+          path: out
 
-      - name: Generate image tag
-        id: set-tag
-        run: |
-          if [[ "${{ github.ref }}" == refs/tags/v* ]]; then
-            TAG="${{ github.ref_name }}"
-          else
-            TAG="${{ github.ref_name }}-$(git rev-parse --short "$GITHUB_SHA")-$(date +%s)"
-          fi
-          echo "TAG=$TAG" >> "$GITHUB_OUTPUT"
-
-      - name: Log in to the Container registry
-        uses: docker/login-action@v4
-        with:
-          registry: ${{ env.REGISTRY }}
-          username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v4
-
-      - name: Build and push image
-        uses: docker/build-push-action@v7
-        with:
-          context: .
-          provenance: false
-          platforms: linux/arm64
-          push: true
-          tags: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ steps.set-tag.outputs.TAG }}
-          cache-from: type=gha
-          cache-to: type=gha,mode=max
+      - name: Deploy to Cloudflare
+        run: bunx wrangler deploy
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}

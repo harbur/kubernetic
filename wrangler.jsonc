@@ -1,0 +1,11 @@
+{
+  "name": "docs-kubernetic-com",
+  "compatibility_date": "2026-09-15",
+  // No Worker script: asset requests are free and unmetered.
+  "assets": {
+    "directory": "./out",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  },
+  "routes": [{ "pattern": "docs.kubernetic.com", "custom_domain": true }]
+}

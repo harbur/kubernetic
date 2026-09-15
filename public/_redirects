@@ -1,0 +1,7 @@
+# URLs from the old VuePress site stay reachable: it served every page as
+# /page.html, and "Generic" features lived under crosssections-features.
+/index.html / 301
+/*/index.html /:splat 301
+/features/crosssections-features/*.html /features/general/:splat 301
+/features/crosssections-features/* /features/general/:splat 301
+/*.html /:splat 301
