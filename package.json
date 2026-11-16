@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@plausible-analytics/tracker": "^0.4.4",
-    "fumadocs-core": "16.18.3",
+    "fumadocs-core": "16.19.3",
     "fumadocs-mdx": "15.5.2",
     "fumadocs-ui": "16.17.5",
     "lucide-react": "^1.0.0",
